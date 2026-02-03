@@ -198,6 +198,269 @@ const shaher = {
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&labelColor=1a1a2e)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=1a1a2e)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&labelColor=1a1a2e)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white&labelColor=1a1a2e)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1a2e)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white&labelColor=1a1a2e)
+
+</div>
+
+### 🎨 Frontend Development | تطوير الواجهات
+
+<div align="center">
+
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white&labelColor=1a1a2e)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=1a1a2e)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=1a1a2e)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=1a1a2e)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=1a1a2e)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=1a1a2e)
+![Material UI](https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white&labelColor=1a1a2e)
+![SASS](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white&labelColor=1a1a2e)
+
+</div>
+
+### ⚙️ Backend Development | تطوير الخادم
+
+<div align="center">
+
+![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=1a1a2e)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white&labelColor=1a1a2e)
+![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=for-the-badge&logo=.net&logoColor=white&labelColor=1a1a2e)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white&labelColor=1a1a2e)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=1a1a2e)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white&labelColor=1a1a2e)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=1a1a2e)
+
+</div>
+
+### 📱 Mobile Development | تطوير تطبيقات الموبايل
+
+<div align="center">
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white&labelColor=1a1a2e)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white&labelColor=1a1a2e)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black&labelColor=1a1a2e)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=1a1a2e)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white&labelColor=1a1a2e)
+
+</div>
+
+### 🗄️ Databases | قواعد البيانات
+
+<div align="center">
+
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white&labelColor=1a1a2e)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=1a1a2e)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=1a1a2e)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=1a1a2e)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white&labelColor=1a1a2e)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white&labelColor=1a1a2e)
+
+</div>
+
+### 🔧 Tools & Technologies | الأدوات والتقنيات
+
+<div align="center">
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1a2e)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=1a1a2e)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=1a1a2e)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=1a1a2e)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white&labelColor=1a1a2e)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black&labelColor=1a1a2e)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white&labelColor=1a1a2e)
+
+</div>
+
+---
+
+<!-- MEGA GitHub Stats Section -->
+<div align="center">
+
+## 📊 إحصائيات GitHub | GitHub Statistics
+
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+
+<!-- Large Stats Cards -->
+<img src="https://github-readme-stats.vercel.app/api?username=ProgramerShaher&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D1FF&icon_color=00D1FF&text_color=FFFFFF&include_all_commits=true&count_private=true&custom_title=إحصائيات%20GitHub" width="49%" height="195"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProgramerShaher&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D1FF&text_color=FFFFFF&langs_count=10&custom_title=اللغات%20الأكثر%20استخداماً" width="49%" height="195"/>
+
+<!-- Streak Stats -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ProgramerShaher&theme=radical&hide_border=true&background=0D1117&ring=00D1FF&fire=FF2D20&currStreakLabel=00D1FF" width="70%"/>
+
+<!-- Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ProgramerShaher&custom_title=مساهمات%20شاهر%20اليَعري&bg_color=0D1117&color=00D1FF&line=512BD4&point=FFFFFF&area=true&hide_border=true&height=300" width="100%"/>
+
+<!-- Trophy -->
+<img src="https://github-profile-trophy.vercel.app/?username=ProgramerShaher&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" width="100%"/>
+
+</div>
+
+---
+
+<!-- Skills Progress Bars -->
+<div align="center">
+
+## 📈 مستويات الإتقان | Skill Levels
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
+
+</div>
+
+<table align="center">
+<tr>
+<td width="50%">
+
+### 🎨 Frontend Development
+
+```text
+Angular          ████████████████████░ 95%
+React            ████████████████░░░░░ 80%
+TypeScript       ██████████████████░░░ 90%
+HTML/CSS         ████████████████████░ 98%
+Bootstrap        ████████████████████░ 95%
+Tailwind CSS     ██████████████████░░░ 88%
+```
+
+### ⚙️ Backend Development
+
+```text
+ASP.NET Core     ████████████████████░ 98%
+C#               ████████████████████░ 96%
+Laravel/PHP      ██████████████████░░░ 85%
+Node.js          ████████████████░░░░░ 78%
+REST APIs        ████████████████████░ 92%
+```
+
+</td>
+<td width="50%">
+
+### 📱 Mobile Development
+
+```text
+Flutter          ██████████████████░░░ 88%
+Dart             ██████████████████░░░ 85%
+Firebase         ████████████████░░░░░ 82%
+```
+
+### 🗄️ Database & Tools
+
+```text
+SQL Server       ████████████████████░ 95%
+MySQL            ██████████████████░░░ 90%
+MongoDB          ████████████████░░░░░ 75%
+Git/GitHub       ████████████████████░ 92%
+Docker           ███████████████░░░░░░ 72%
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- MEGA Projects Section -->
+<div align="center">
+
+## 🚀 المشاريع البارزة | Featured Projects
+
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3"/>
+
+</div>
+
+<!-- Project 1: Pharmacy System -->
+<div align="center">
+
+### 💊 نظام إدارة الصيدلية | Pharmacy Management System
+
+<img src="https://images.unsplash.com/photo-1576602976047-174e57a47881?w=900&h=450&fit=crop&auto=format" alt="Pharmacy System" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,209,255,0.3);"/>
+
+**نظام ذكي ومتكامل لإدارة الصيدليات بكفاءة عالية**
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/pill.png" width="60"/><br/>
+<strong>إدارة المخزون</strong><br/>
+<sub>تتبع الأدوية والكميات</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/invoice.png" width="60"/><br/>
+<strong>نظام الفواتير</strong><br/>
+<sub>فواتير سريعة ودقيقة</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/graph.png" width="60"/><br/>
+<strong>التقارير</strong><br/>
+<sub>تقارير تحليلية شاملة</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/security-checked.png" width="60"/><br/>
+<strong>الأمان</strong><br/>
+<sub>حماية عالية للبيانات</sub>
+</td>
+</tr>
+</table>
+
+**🔧 التقنيات المستخدمة:**
+
+![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![.NET Core](https://img.shields.io/badge/-.NET_Core-512BD4?style=flat-square&logo=.net&logoColor=white)
+![SQL Server](https://img.shields.io/badge/-SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/-EF_Core-512BD4?style=flat-square&logo=.net&logoColor=white)
+
+[![View Code](https://img.shields.io/badge/💻_شاهد_الكود-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
+[![Live Demo](https://img.shields.io/badge/🚀_تجربة_مباشرة-00D1FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/ProgramerShaher)
+
+<img width="80%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
+
+</div>
+
+---
+
+<!-- Project 2: Legal Office System -->
+<div align="center">
+
+### ⚖️ نظام إدارة المكاتب القانونية | Legal Office Management System
+
+<img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=900&h=450&fit=crop&auto=format" alt="Legal Office System" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(81,43,212,0.3);"/>
+
+**منصة ويب وموبايل شاملة لإدارة المكاتب القانونية بشكل احترافي**
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/judge.png" width="60"/><br/>
+<strong>إدارة القضايا</strong><br/>
+<sub>متابعة شاملة للقضايا</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/smartphone-tablet.png" width="60"/><br/>
+<strong>تطبيق موبايل</strong><br/>
+<sub>متوفر لـ Android & iOS</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/bell.png" width="60"/><br/>
+<strong>الإشعارات</strong><br/>
+<sub>تنبيهات فورية ذكية</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/documents.png" width="60"/><br/>
+<strong>الأرشفة</strong><br/>
+<sub>أرشفة ذكية للمستندات</sub>
+</td>
+</tr>
+</table>
+
+**🔧 التقنيات المستخدمة:**
+
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/-ASP.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 
@@ -762,267 +1025,4 @@ Whether you're looking for a developer to join your team, want to collaborate on
 
 </div>
 
-</div>/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white&labelColor=1a1a2e)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1a2e)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white&labelColor=1a1a2e)
-
 </div>
-
-### 🎨 Frontend Development | تطوير الواجهات
-
-<div align="center">
-
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white&labelColor=1a1a2e)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=1a1a2e)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=1a1a2e)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=1a1a2e)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=1a1a2e)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=1a1a2e)
-![Material UI](https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white&labelColor=1a1a2e)
-![SASS](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white&labelColor=1a1a2e)
-
-</div>
-
-### ⚙️ Backend Development | تطوير الخادم
-
-<div align="center">
-
-![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=1a1a2e)
-![ASP.NET](https://img.shields.io/badge/ASP.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white&labelColor=1a1a2e)
-![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=for-the-badge&logo=.net&logoColor=white&labelColor=1a1a2e)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white&labelColor=1a1a2e)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=1a1a2e)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white&labelColor=1a1a2e)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=1a1a2e)
-
-</div>
-
-### 📱 Mobile Development | تطوير تطبيقات الموبايل
-
-<div align="center">
-
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white&labelColor=1a1a2e)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white&labelColor=1a1a2e)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black&labelColor=1a1a2e)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=1a1a2e)
-![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white&labelColor=1a1a2e)
-
-</div>
-
-### 🗄️ Databases | قواعد البيانات
-
-<div align="center">
-
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white&labelColor=1a1a2e)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=1a1a2e)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=1a1a2e)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=1a1a2e)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white&labelColor=1a1a2e)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white&labelColor=1a1a2e)
-
-</div>
-
-### 🔧 Tools & Technologies | الأدوات والتقنيات
-
-<div align="center">
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1a2e)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=1a1a2e)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=1a1a2e)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=1a1a2e)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white&labelColor=1a1a2e)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black&labelColor=1a1a2e)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white&labelColor=1a1a2e)
-
-</div>
-
----
-
-<!-- MEGA GitHub Stats Section -->
-<div align="center">
-
-## 📊 إحصائيات GitHub | GitHub Statistics
-
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
-
-<!-- Large Stats Cards -->
-<img src="https://github-readme-stats.vercel.app/api?username=ProgramerShaher&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D1FF&icon_color=00D1FF&text_color=FFFFFF&include_all_commits=true&count_private=true&custom_title=إحصائيات%20GitHub" width="49%" height="195"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProgramerShaher&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D1FF&text_color=FFFFFF&langs_count=10&custom_title=اللغات%20الأكثر%20استخداماً" width="49%" height="195"/>
-
-<!-- Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ProgramerShaher&theme=radical&hide_border=true&background=0D1117&ring=00D1FF&fire=FF2D20&currStreakLabel=00D1FF" width="70%"/>
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ProgramerShaher&custom_title=مساهمات%20شاهر%20اليَعري&bg_color=0D1117&color=00D1FF&line=512BD4&point=FFFFFF&area=true&hide_border=true&height=300" width="100%"/>
-
-<!-- Trophy -->
-<img src="https://github-profile-trophy.vercel.app/?username=ProgramerShaher&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" width="100%"/>
-
-</div>
-
----
-
-<!-- Skills Progress Bars -->
-<div align="center">
-
-## 📈 مستويات الإتقان | Skill Levels
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
-
-</div>
-
-<table align="center">
-<tr>
-<td width="50%">
-
-### 🎨 Frontend Development
-
-```text
-Angular          ████████████████████░ 95%
-React            ████████████████░░░░░ 80%
-TypeScript       ██████████████████░░░ 90%
-HTML/CSS         ████████████████████░ 98%
-Bootstrap        ████████████████████░ 95%
-Tailwind CSS     ██████████████████░░░ 88%
-```
-
-### ⚙️ Backend Development
-
-```text
-ASP.NET Core     ████████████████████░ 98%
-C#               ████████████████████░ 96%
-Laravel/PHP      ██████████████████░░░ 85%
-Node.js          ████████████████░░░░░ 78%
-REST APIs        ████████████████████░ 92%
-```
-
-</td>
-<td width="50%">
-
-### 📱 Mobile Development
-
-```text
-Flutter          ██████████████████░░░ 88%
-Dart             ██████████████████░░░ 85%
-Firebase         ████████████████░░░░░ 82%
-```
-
-### 🗄️ Database & Tools
-
-```text
-SQL Server       ████████████████████░ 95%
-MySQL            ██████████████████░░░ 90%
-MongoDB          ████████████████░░░░░ 75%
-Git/GitHub       ████████████████████░ 92%
-Docker           ███████████████░░░░░░ 72%
-```
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- MEGA Projects Section -->
-<div align="center">
-
-## 🚀 المشاريع البارزة | Featured Projects
-
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3"/>
-
-</div>
-
-<!-- Project 1: Pharmacy System -->
-<div align="center">
-
-### 💊 نظام إدارة الصيدلية | Pharmacy Management System
-
-<img src="https://images.unsplash.com/photo-1576602976047-174e57a47881?w=900&h=450&fit=crop&auto=format" alt="Pharmacy System" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,209,255,0.3);"/>
-
-**نظام ذكي ومتكامل لإدارة الصيدليات بكفاءة عالية**
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/pill.png" width="60"/><br/>
-<strong>إدارة المخزون</strong><br/>
-<sub>تتبع الأدوية والكميات</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/invoice.png" width="60"/><br/>
-<strong>نظام الفواتير</strong><br/>
-<sub>فواتير سريعة ودقيقة</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/graph.png" width="60"/><br/>
-<strong>التقارير</strong><br/>
-<sub>تقارير تحليلية شاملة</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/security-checked.png" width="60"/><br/>
-<strong>الأمان</strong><br/>
-<sub>حماية عالية للبيانات</sub>
-</td>
-</tr>
-</table>
-
-**🔧 التقنيات المستخدمة:**
-
-![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![.NET Core](https://img.shields.io/badge/-.NET_Core-512BD4?style=flat-square&logo=.net&logoColor=white)
-![SQL Server](https://img.shields.io/badge/-SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/-EF_Core-512BD4?style=flat-square&logo=.net&logoColor=white)
-
-[![View Code](https://img.shields.io/badge/💻_شاهد_الكود-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-[![Live Demo](https://img.shields.io/badge/🚀_تجربة_مباشرة-00D1FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/ProgramerShaher)
-
-<img width="80%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
-
-</div>
-
----
-
-<!-- Project 2: Legal Office System -->
-<div align="center">
-
-### ⚖️ نظام إدارة المكاتب القانونية | Legal Office Management System
-
-<img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=900&h=450&fit=crop&auto=format" alt="Legal Office System" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(81,43,212,0.3);"/>
-
-**منصة ويب وموبايل شاملة لإدارة المكاتب القانونية بشكل احترافي**
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/judge.png" width="60"/><br/>
-<strong>إدارة القضايا</strong><br/>
-<sub>متابعة شاملة للقضايا</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/smartphone-tablet.png" width="60"/><br/>
-<strong>تطبيق موبايل</strong><br/>
-<sub>متوفر لـ Android & iOS</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/bell.png" width="60"/><br/>
-<strong>الإشعارات</strong><br/>
-<sub>تنبيهات فورية ذكية</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/documents.png" width="60"/><br/>
-<strong>الأرشفة</strong><br/>
-<sub>أرشفة ذكية للمستندات</sub>
-</td>
-</tr>
-</table>
-
-**🔧 التقنيات المستخدمة:**
-
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![ASP.NET](https://img.shields.io/badge/-ASP.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Dart](https://img.shields.io
