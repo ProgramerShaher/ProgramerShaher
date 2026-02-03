@@ -1,3 +1,464 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شاهر اليَعري - مطور متكامل</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Animated Background */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(0, 209, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(81, 43, 212, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(255, 45, 32, 0.1) 0%, transparent 50%);
+            animation: backgroundMove 15s ease-in-out infinite;
+        }
+
+        @keyframes backgroundMove {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(5deg); }
+        }
+
+        /* Floating Particles */
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(0, 209, 255, 0.6);
+            border-radius: 50%;
+            animation: float 15s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) translateX(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) translateX(100px);
+                opacity: 0;
+            }
+        }
+
+        /* Content Container */
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        /* Profile Image */
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #00D1FF;
+            margin: 0 auto 30px;
+            animation: pulse 3s ease-in-out infinite;
+            box-shadow: 0 0 40px rgba(0, 209, 255, 0.5);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 40px rgba(0, 209, 255, 0.5);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 0 60px rgba(0, 209, 255, 0.8);
+            }
+        }
+
+        /* Main Title */
+        .main-title {
+            font-size: 72px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #00D1FF, #512BD4, #FF2D20);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientShift 5s ease infinite;
+            background-size: 200% 200%;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        /* Typing Animation Container */
+        .typing-container {
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .typing-text {
+            font-size: 42px;
+            font-weight: 600;
+            color: #00D1FF;
+            border-left: 3px solid #00D1FF;
+            padding-left: 15px;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: blink 0.7s step-end infinite;
+        }
+
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+
+        /* Description */
+        .description {
+            font-size: 24px;
+            color: #b0b0b0;
+            margin: 20px 0 40px;
+            line-height: 1.6;
+        }
+
+        /* Tech Stack Icons */
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .tech-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            transition: all 0.3s ease;
+            border: 2px solid rgba(0, 209, 255, 0.3);
+            animation: techFloat 3s ease-in-out infinite;
+        }
+
+        .tech-icon:nth-child(1) { animation-delay: 0s; }
+        .tech-icon:nth-child(2) { animation-delay: 0.2s; }
+        .tech-icon:nth-child(3) { animation-delay: 0.4s; }
+        .tech-icon:nth-child(4) { animation-delay: 0.6s; }
+        .tech-icon:nth-child(5) { animation-delay: 0.8s; }
+        .tech-icon:nth-child(6) { animation-delay: 1s; }
+
+        @keyframes techFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .tech-icon:hover {
+            transform: scale(1.2) translateY(-5px);
+            border-color: #00D1FF;
+            box-shadow: 0 10px 30px rgba(0, 209, 255, 0.4);
+            background: rgba(0, 209, 255, 0.1);
+        }
+
+        /* CTA Buttons */
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 18px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #00D1FF, #512BD4);
+            color: white;
+            box-shadow: 0 10px 30px rgba(0, 209, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0, 209, 255, 0.5);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #00D1FF;
+            border: 2px solid #00D1FF;
+        }
+
+        .btn-secondary:hover {
+            background: #00D1FF;
+            color: #000;
+            transform: translateY(-3px);
+        }
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-20px); }
+            60% { transform: translateX(-50%) translateY(-10px); }
+        }
+
+        .scroll-indicator::before {
+            content: '↓';
+            font-size: 40px;
+            color: #00D1FF;
+        }
+
+        /* Stats Section */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: bold;
+            color: #00D1FF;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 18px;
+            color: #888;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 42px;
+            }
+            
+            .typing-text {
+                font-size: 24px;
+            }
+            
+            .description {
+                font-size: 18px;
+            }
+            
+            .tech-icon {
+                width: 60px;
+                height: 60px;
+                font-size: 30px;
+            }
+            
+            .profile-image {
+                width: 150px;
+                height: 150px;
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <!-- Animated Background Particles -->
+        <div class="particles" id="particles"></div>
+        
+        <div class="hero-content">
+            <!-- Profile Image -->
+            <div class="profile-image">👨‍💻</div>
+            
+            <!-- Main Title -->
+            <h1 class="main-title">شاهر خالد اليَعري</h1>
+            
+            <!-- Typing Animation -->
+            <div class="typing-container">
+                <div class="typing-text" id="typingText"></div>
+            </div>
+            
+            <!-- Description -->
+            <p class="description">
+                مطور متكامل محترف | طالب تقنية معلومات | مبتكر حلول تقنية
+                <br>
+                بناء أنظمة ذكية ومتطورة لتحويل الأفكار إلى واقع
+            </p>
+            
+            <!-- Tech Stack -->
+            <div class="tech-stack">
+                <div class="tech-icon" title="C#">C#</div>
+                <div class="tech-icon" title="Angular">🅰️</div>
+                <div class="tech-icon" title="React">⚛️</div>
+                <div class="tech-icon" title=".NET">🔷</div>
+                <div class="tech-icon" title="Flutter">📱</div>
+                <div class="tech-icon" title="SQL">🗄️</div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">سنوات خبرة</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">مشروع منجز</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-label">سطر كود</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">رضا العملاء</span>
+                </div>
+            </div>
+            
+            <!-- CTA Buttons -->
+            <div class="cta-buttons">
+                <a href="https://github.com/ProgramerShaher" class="btn btn-primary">
+                    🚀 شاهد أعمالي
+                </a>
+                <a href="https://wa.me/+967779007753" class="btn btn-secondary">
+                    📞 تواصل معي
+                </a>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator"></div>
+    </div>
+
+    <script>
+        // Typing Animation
+        const phrases = [
+            'أهلاً بك 👋 أنا شاهر اليَعري',
+            'Full Stack Developer 💻',
+            'مطور أنظمة ذكية 🚀',
+            'Angular & .NET Expert 🎯',
+            'بناء حلول متطورة ✨',
+            'Mobile Apps Developer 📱',
+            'Crafting Digital Excellence 🌟'
+        ];
+        
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingText = document.getElementById('typingText');
+        const typingSpeed = 100;
+        const deletingSpeed = 50;
+        const pauseTime = 2000;
+        
+        function type() {
+            const currentPhrase = phrases[phraseIndex];
+            
+            if (isDeleting) {
+                typingText.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingText.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                isDeleting = true;
+                setTimeout(type, pauseTime);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                setTimeout(type, 500);
+            } else {
+                setTimeout(type, isDeleting ? deletingSpeed : typingSpeed);
+            }
+        }
+        
+        // Start typing animation
+        setTimeout(type, 1000);
+        
+        // Generate Particles
+        const particlesContainer = document.getElementById('particles');
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement('div');
+            particle.classList.add('particle');
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 15 + 's';
+            particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+            particlesContainer.appendChild(particle);
+        }
+    </script>
+</body>
+</html>
+
 <div align="center">
 
 <!-- Header with animated typing effect -->
@@ -150,6 +611,8 @@
 ### 💊 نظام إدارة الصيدلية
 **نظام ذكي متكامل لإدارة الصيدليات**
 
+<img src="https://images.unsplash.com/photo-1576602976047-174e57a47881?w=500&h=300&fit=crop" alt="Pharmacy System" style="border-radius: 10px; margin: 10px 0;"/>
+
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
 
 **التقنيات المستخدمة:**
@@ -168,6 +631,8 @@
 
 ### ⚖️ نظام إدارة المكاتب القانونية
 **منصة ويب وموبايل شاملة**
+
+<img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=500&h=300&fit=crop" alt="Legal Office System" style="border-radius: 10px; margin: 10px 0;"/>
 
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
 
@@ -191,6 +656,8 @@
 ### 🛒 متجر القهوة الإلكتروني
 **منصة تجارة إلكترونية متكاملة**
 
+<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&h=300&fit=crop" alt="Coffee Shop" style="border-radius: 10px; margin: 10px 0;"/>
+
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
 
 **التقنيات المستخدمة:**
@@ -209,6 +676,8 @@
 
 ### 🏥 نظام إدارة المستشفيات
 **حل شامل للمؤسسات الطبية**
+
+<img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=500&h=300&fit=crop" alt="Hospital System" style="border-radius: 10px; margin: 10px 0;"/>
 
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
 
