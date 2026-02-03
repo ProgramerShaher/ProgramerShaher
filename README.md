@@ -1,373 +1,99 @@
-// ==============================
-// 📁 ملف المطور المتكامل - شاهر اليَعري
-// ==============================
+# <img src="https://media.giphy.com/media/hvRJCLFzcyK5BY4MAs/giphy.gif" width="30px"> أنا شاهر اليَعري - مطور متكامل
 
-class DeveloperShaher {
-  constructor() {
-    this.fullName = "شاهر خالد اليَعري";
-    this.title = "مطور ويب وتطبيقات موبايل متكامل";
-    this.age = 24;
-    this.status = "طالب سنة أخيرة - جامعة 21 سبتمبر";
-    this.graduationYear = 2024;
-    this.location = "اليمن";
-    this.motto = "أبني المستقبل الرقمي سطراً بسطر";
-  }
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mayur091193/mayur091193/main/assests/developer.gif" width="350px" />
+</p>
 
-  // 🎓 المعلومات التعليمية
-  getEducation() {
-    return {
-      university: "جامعة 21 سبتمبر",
-      major: "تقنية المعلومات",
-      specialization: "تطوير الويب والتطبيقات",
-      academicLevel: "السنة النهائية",
-      graduationDate: "ديسمبر 2024",
-      academicStatus: "متفوق دراسياً",
-      projectsCount: 25,
-      gpa: "3.8/4.0"
-    };
-  }
+<p align="center">
+  <a href="https://programershaher.github.io/">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D1FF&center=true&vCenter=true&width=500&lines=%D9%85%D8%B7%D9%88%D8%B1+%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84+%D9%85%D8%AD%D8%AA%D8%B1%D9%81;%D9%85%D8%AE%D8%B7%D8%B7+%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84+%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A9;%D8%A3%D8%AF%D8%A7%D8%A1+%D8%B9%D8%A7%D9%84%D9%8A+%D9%88%D9%83%D9%81%D8%A7%D8%A1%D8%A9;%D9%85%D8%A8%D8%AA%D9%83%D8%B1+%D9%85%D8%A4%D8%AB%D8%B1;%D8%B7%D8%A7%D9%84%D8%A8+%D8%AA%D9%82%D9%86%D9%8A%D8%A9+%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA" alt="نص متحرك" />
+  </a>
+</p>
 
-  // 🛠️ المهارات التقنية
-  getTechnicalSkills() {
-    return {
-      frontend: {
-        html5: { level: 95, projects: 15, certified: true },
-        css3: { level: 92, projects: 12, certified: true },
-        javascript: { level: 90, projects: 18, certified: true },
-        typescript: { level: 85, projects: 8, certified: false },
-        react: { level: 87, projects: 10, certified: true },
-        angular: { level: 82, projects: 6, certified: false }
-      },
-      backend: {
-        aspnet: { level: 88, projects: 9, certified: true },
-        csharp: { level: 85, projects: 12, certified: true },
-        java: { level: 78, projects: 7, certified: false },
-        apis: { level: 90, projects: 14, certified: true },
-        mvc: { level: 84, projects: 11, certified: true },
-        database: { level: 86, projects: 13, certified: true }
-      },
-      mobile: {
-        flutter: { level: 75, projects: 5, certified: false },
-        dart: { level: 72, projects: 5, certified: false },
-        responsive: { level: 80, projects: 8, certified: true },
-        mobileApis: { level: 78, projects: 6, certified: false }
-      },
-      additionalSkills: {
-        systemAnalysis: 90,
-        problemSolving: 95,
-        technicalCommunication: 88,
-        projectManagement: 82,
-        uxuiDesign: 79,
-        softwareTesting: 76
-      }
-    };
-  }
+---
 
-  // 🏆 المشاريع البارزة
-  getFeaturedProjects() {
-    return [
-      {
-        id: 1,
-        name: "نظام إدارة الصيدلية الذكي",
-        type: "تطبيق ويب متكامل",
-        technologies: ["Angular 12", "ASP.NET Core 6", "SQL Server", "REST API"],
-        features: [
-          "إدارة المخزون الدوائي الذكية",
-          "تتبع الوصفات الطبية الرقمية",
-          "نظام المبيعات والمشتريات المتكامل",
-          "تنبيهات انتهاء الصلاحية التلقائية",
-          "تقارير تحليلية متقدمة",
-          "إدارة المستخدمين والصلاحيات"
-        ],
-        achievements: {
-          timeReduction: "40%",
-          errorReduction: "60%",
-          efficiencyIncrease: "35%",
-          completionStatus: "مكتمل وناجح"
-        }
-      },
-      {
-        id: 2,
-        name: "متجر موكا للقهوة الإلكتروني",
-        type: "منصة تجارة إلكترونية",
-        technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-        features: [
-          "تصميم متجاوب عصري",
-          "نظام دفع آمن متعدد الخيارات",
-          "إدارة محتوى ديناميكية",
-          "نظام تقييم وتعليقات",
-          "توصيل ذكي ومتتبع",
-          "عروض وخصومات متجددة"
-        ],
-        achievements: {
-          developmentTime: "3 أشهر",
-          targetUsers: "عشاق القهوة",
-          satisfactionRate: "95%"
-        }
-      },
-      {
-        id: 3,
-        name: "نظام إدارة مكاتب المحاماة",
-        type: "منصة ويب وتطبيق موبايل",
-        technologies: ["ASP.NET Core", "Angular", "Flutter", "Firebase"],
-        features: [
-          "إدارة القضايا والملفات",
-          "جدولة الجلسات والمواعيد",
-          "أرشفة المستندات الرقمية",
-          "تتبع الأتعاب والمدفوعات",
-          "لوحة تحليل وإحصاءات",
-          "تواصل مع العملاء"
-        ],
-        achievements: {
-          efficiency: "+50% زيادة في الإنتاجية",
-          organization: "-70% أوراق مستخدمة",
-          satisfaction: "4.8/5 تقييم المستخدمين"
-        }
-      }
-    ];
-  }
+### 🚀 معلومات عني
 
-  // 📊 الإحصائيات والجوائز
-  getStatisticsAndAwards() {
-    return {
-      githubStats: {
-        totalRepositories: 45,
-        totalCommits: 1250,
-        totalStars: 89,
-        totalForks: 34,
-        contributionsThisYear: 567,
-        languages: ["C#", "JavaScript", "TypeScript", "HTML", "CSS", "Dart"]
-      },
-      awards: [
-        {
-          id: 1,
-          name: "أفضل مشروع تخرج تقني",
-          year: 2024,
-          organizer: "جامعة 21 سبتمبر",
-          project: "نظام إدارة الصيدلية الذكي"
-        },
-        {
-          id: 2,
-          name: "المركز الثاني في مسابقة البرمجة",
-          year: 2023,
-          organizer: "نادي تقنية المعلومات",
-          details: "تطوير تطبيق ويب خلال 48 ساعة"
-        },
-        {
-          id: 3,
-          name: "شهادة التميز في تطوير الويب",
-          year: 2023,
-          organizer: "أكاديمية البرمجة",
-          details: "إتقان تقنيات ASP.NET Core"
-        },
-        {
-          id: 4,
-          name: "مطور الشهر في GitHub",
-          year: 2022,
-          organizer: "مجتمع المطورين",
-          details: "50+ مساهمة في مشاريع مفتوحة المصدر"
-        },
-        {
-          id: 5,
-          name: "أعلى تقييم في مشاريع التخرج",
-          year: 2024,
-          organizer: "قسم تقنية المعلومات",
-          details: "متوسط تقييم 98% في جميع المشاريع"
-        }
-      ]
-    };
-  }
+**مطور متكامل محترف** مع تركيز قوي على بناء أنظمة عالية الأداء. أبني الجسور بين المنطق المعقد للواجهات الخلفية وتجارب المستخدم السلسة في الواجهات الأمامية.
 
-  // 🌐 وسائل التواصل
-  getContactInfo() {
-    return {
-      website: "https://programershaher.github.io/",
-      github: "https://github.com/ProgramerShaher",
-      linkedin: "https://www.linkedin.com/in/%D8%B4%D8%A7%D9%87%D8%B1-%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D9%8A%D8%B9%D8%B1%D9%8A-27606a385",
-      facebook: "https://www.facebook.com/shahr.khald.aly.ry.2025",
-      instagram: "https://www.instagram.com/shhrlyry",
-      telegram: "https://t.me/Engineering_Shaher_ALyaari",
-      whatsapp: "https://wa.me/+967779007753",
-      email: "shaher.developer@example.com"
-    };
-  }
+- 🔭 **تخصصي:** تطوير أنظمة إدارة المستشفيات والمدارس المتكاملة
+- 🏗️ **أنماط هندسية:** هندسة نظيفة، DDD، CQRS و MediatR
+- 🎓 **التعليم:** طالب تقنية معلومات - جامعة 21 سبتمبر (السنة الأخيرة)
+- 💬 **اسألني عن:** نظام .NET، Angular، React، و Laravel
+- ✉️ **راسلني على:** [alyaarishaher@gmail.com](mailto:alyaarishaher@gmail.com)
 
-  // 📈 خطة التطور المستقبلية
-  getDevelopmentPlan() {
-    return {
-      "2024": [
-        "إتمام التخرج بنجاح",
-        "تعلم Python وأساسيات الذكاء الاصطناعي",
-        "إتقان Flutter المتقدم",
-        "تعلم Next.js للمشاريع الكبيرة",
-        "الحصول على شهادة AWS Cloud Practitioner"
-      ],
-      "2025": [
-        "العمل في شركة تقنية رائدة",
-        "التخصص في مجال الذكاء الاصطناعي التطبيقي",
-        "تعلم تطوير تطبيقات iOS natively",
-        "إتقان GraphQL و Microservices",
-        "بدء مشروع تقني ناشئ"
-      ],
-      "2026": [
-        "تطوير منتج تقني خاص",
-        "التوسع في مجال الأمن السيبراني",
-        "المشاركة في مؤتمرات تقنية عالمية",
-        "تأسيس فريق تطوير متكامل",
-        "التدريب والإرشاد للمطورين الجدد"
-      ]
-    };
-  }
+---
 
-  // 💭 فلسفة العمل
-  getWorkPhilosophy() {
-    return {
-      principles: [
-        "الجودة أولاً: لا أساوم على جودة الكود والأداء",
-        "التعلم المستمر: التكنولوجيا تتطور وأنا معها",
-        "العمل الجماعي: أفضل الحلول تأتي من العقول المتعاونة",
-        "الأخلاقية: البرمجة مسؤولية أخلاقية قبل أن تكون مهارة",
-        "الإبداع: البحث عن حلول مبتكرة لكل تحدي"
-      ],
-      vision: "أؤمن بأن التكنولوجيا يجب أن تكون في خدمة الإنسان، وليست العكس. كل سطر كود أكتبه يحمل رؤية لتحسين الحياة وتسهيل المهام.",
-      mission: "بناء أنظمة لا تعمل فقط بكفاءة، بل تلمس حياة المستخدمين وتحدث فرقاً إيجابياً في المجتمع.",
-      values: ["النزاهة", "الإبداع", "التعاون", "التعلم", "التفاني", "الابتكار"]
-    };
-  }
+### 🛠️ صندوق أدائي المهني
 
-  // 🎯 فرص العمل المتاحة
-  getJobOpportunities() {
-    return {
-      availablePositions: [
-        {
-          title: "مطور ويب متكامل",
-          type: "دوام كامل",
-          location: "مكتبي أو عن بعد",
-          requirements: ["ASP.NET Core", "Angular", "SQL", "REST APIs"],
-          status: "مفتوح"
-        },
-        {
-          title: "مطور تطبيقات موبايل",
-          type: "دوام جزئي",
-          location: "عن بعد",
-          requirements: ["Flutter", "Dart", "Firebase", "Mobile APIs"],
-          status: "مفتوح"
-        },
-        {
-          title: "متدرب تطوير برمجيات",
-          type: "تدريب عملي",
-          location: "أي مكان",
-          requirements: ["أساسيات البرمجة", "شغف التعلم", "التفكير التحليلي"],
-          status: "مفتوح"
-        },
-        {
-          title: "مشاريع حرة",
-          type: "عقود",
-          location: "عن بعد",
-          requirements: ["مهارات اتصال", "التزام بالمواعيد", "جودة العمل"],
-          status: "مفتوح"
-        }
-      ],
-      strengths: [
-        "التزام بالمواعيد - دائمًا أوفي بالمواعيد النهائية",
-        "جودة عالية - أعمل بمعايير احترافية عالية",
-        "تواصل ممتاز - متابعة مستمرة وتحديثات دورية",
-        "مرونة في العمل - أتكيف مع متطلبات المشروع",
-        "شغف حقيقي - أحب ما أفعله وهذا يظهر في عملي"
-      ]
-    };
-  }
+| الفئة | التقنيات |
+| :--- | :--- |
+| **الواجهات الخلفية** | ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET](https://img.shields.io/badge/-.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) |
+| **الواجهات الأمامية** | ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TS](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) |
+| **تطبيقات الموبايل** | ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white) |
+| **قواعد البيانات** | ![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![Oracle](https://img.shields.io/badge/-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **أدوات التطوير** | ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) |
 
-  // 📞 طريقة استخدام الكلاس
-  static howToUse() {
-    return `
-    =============================================
-    كيفية استخدام ملف المطور شاهر اليَعري:
-    =============================================
-    
-    1. إنشاء كائن المطور:
-       const dev = new DeveloperShaher();
-    
-    2. الحصول على المعلومات:
-       console.log(dev.fullName); // "شاهر خالد اليَعري"
-       console.log(dev.getEducation());
-       console.log(dev.getTechnicalSkills());
-       console.log(dev.getFeaturedProjects());
-    
-    3. التواصل مع المطور:
-       const contacts = dev.getContactInfo();
-       console.log(contacts.whatsapp); // رابط الواتساب
-    
-    4. معرفة الفرص المتاحة:
-       const opportunities = dev.getJobOpportunities();
-    
-    =============================================
-    `;
-  }
-}
+---
 
-// إنشاء كائن المطور
-const shaherDeveloper = new DeveloperShaher();
+### 🏆 جوائز GitHub
 
-// عرض المعلومات الأساسية
-console.log(`👋 مرحباً! أنا ${shaherDeveloper.fullName}`);
-console.log(`🎯 ${shaherDeveloper.title}`);
-console.log(`📍 ${shaherDeveloper.status}`);
-console.log(`🚀 ${shaherDeveloper.motto}`);
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=ProgramerShaher&theme=dracula&no-bg=true&column=7" alt="جوائز GitHub" />
+  </a>
+</p>
 
-// عرض رسالة ترحيبية
-console.log(`
-=============================================
-🌟 ملف المطور المحترف - شاهر اليَعري 🌟
-=============================================
+### 📈 إحصائيات GitHub
 
-🏆 الإنجازات: ${shaherDeveloper.getEducation().projectsCount} مشروعاً ناجحاً
-🛠️ المهارات: ${Object.keys(shaherDeveloper.getTechnicalSkills().frontend).length + Object.keys(shaherDeveloper.getTechnicalSkills().backend).length + Object.keys(shaherDeveloper.getTechnicalSkills().mobile).length} مهارة تقنية
-🏅 الجوائز: ${shaherDeveloper.getStatisticsAndAwards().awards.length} جائزة وإنجاز
-🌐 التواصل: ${Object.keys(shaherDeveloper.getContactInfo()).length} قناة تواصل
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ProgramerShaher&show_icons=true&theme=tokyonight&count_private=true&locale=ar" alt="إحصائيات شاهر" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProgramerShaher&layout=compact&theme=tokyonight&locale=ar" alt="اللغات الأكثر استخداماً" width="45%" />
+</p>
 
-=============================================
-`);
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ProgramerShaher&theme=tokyonight" alt="سلسلة GitHub" width="94%" />
+</p>
 
-// دالة للحصول على بطاقة المطور كـ JSON
-function getDeveloperCard() {
-  return {
-    timestamp: new Date().toISOString(),
-    version: "2.0.0",
-    developer: {
-      info: {
-        name: shaherDeveloper.fullName,
-        title: shaherDeveloper.title,
-        age: shaherDeveloper.age,
-        status: shaherDeveloper.status
-      },
-      education: shaherDeveloper.getEducation(),
-      skills: shaherDeveloper.getTechnicalSkills(),
-      featuredProjects: shaherDeveloper.getFeaturedProjects(),
-      awards: shaherDeveloper.getStatisticsAndAwards().awards,
-      contact: shaherDeveloper.getContactInfo(),
-      philosophy: shaherDeveloper.getWorkPhilosophy(),
-      opportunities: shaherDeveloper.getJobOpportunities().availablePositions,
-      developmentPlan: shaherDeveloper.getDevelopmentPlan()
-    },
-    metadata: {
-      generatedBy: "GitHub ReadMe Generator",
-      lastUpdated: new Date().toLocaleDateString('ar-SA'),
-      format: "JSON",
-      purpose: "عرض ملف المطور بشكل تفاعلي"
-    }
-  };
-}
+### 🗺️ خريطة مساهماتي على GitHub
 
-// تصدير الكلاس والدوال للاستخدام
-module.exports = {
-  DeveloperShaher,
-  shaherDeveloper,
-  getDeveloperCard,
-  version: "2.0.0",
-  description: "ملف المطور المتكامل لشاهر اليَعري"
-};
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ProgramerShaher&theme=tokyonight" width="100%" />
+</p>
 
-// ==============================
-// نهاية ملف المطور المتكامل
-// ==============================
+---
+
+### 🤝 تواصل معي
+
+<p align="center">
+<a href="https://programershaher.github.io/"><img src="https://img.shields.io/badge/🌐_الموقع_الشخصي-000?style=for-the-badge&logo=ko-fi&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/%D8%B4%D8%A7%D9%87%D8%B1-%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D9%8A%D8%B9%D8%B1%D9%8A-27606a385"><img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://wa.me/+967779007753"><img src="https://img.shields.io/badge/💬_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://t.me/Engineering_Shaher_ALyaari"><img src="https://img.shields.io/badge/✈️_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
+<a href="https://www.facebook.com/shahr.khald.aly.ry.2025"><img src="https://img.shields.io/badge/📘_Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
+<a href="https://www.instagram.com/shhrlyry"><img src="https://img.shields.io/badge/📸_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+</p>
+
+<p align="center"> 
+  <img src="https://komarev.com/ghpvc/?username=ProgramerShaher&label=👁️%20مشاهدات%20الملف&color=0e75b6&style=flat" alt="المشاهدات" /> 
+</p>
+
+<p align="center">
+  <i>"الكود النظيف هو ما يميز المحترفين عن الهواة."</i>
+</p>
+
+---
+
+### 📦 المشاريع البارزة
+
+| المشروع | الوصف | التقنيات |
+| :--- | :--- | :--- |
+| **نظام إدارة الصيدلية** | نظام ذكي شامل لإدارة الصيدليات | ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square) ![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square) ![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat-square) |
+| **متجر القهوة الإلكتروني** | منصة تجارة إلكترونية لمحبي القهوة | ![React](https://img.shields.io/badge/-React-20232A?style=flat-square) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square) |
+| **نظام إدارة المكاتب القانونية** | نظام ويب وتطبيق موبايل شامل | ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square) ![ASP.NET](https://img.shields.io/badge/-ASP.NET-5C2D91?style=flat-square) ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square) |
+
+<p align="center">
+  <a href="https://github.com/ProgramerShaher?tab=repositories">
+    <img src="https://img.shields.io/badge/📁_عرض_جميع_المشاريع-6e5494?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
