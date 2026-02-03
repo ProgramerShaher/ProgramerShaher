@@ -366,6 +366,19 @@ const shaher = {
 
 <!-- MEGA Tech Stack Section -->
 
+## 🛠️ Tech Stack
+
+<br/>
+
+<!-- Tech Stack Icons -->
+<p>
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,php,laravel,js,ts,angular,react,html,css,bootstrap,tailwind,flutter,dart,firebase" />
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlserver,git,github,docker,postman,vscode,visualstudio" />
+</p>
+
+</div>
+
 <div align="center">
 
 
@@ -385,18 +398,7 @@ const shaher = {
 ### 💻 لغات البرمجة | Programming Languages
 
 
-## 🛠️ Tech Stack
 
-<br/>
-
-<!-- Tech Stack Icons -->
-<p>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,php,laravel,js,ts,angular,react,html,css,bootstrap,tailwind,flutter,dart,firebase" />
-  <br/><br/>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlserver,git,github,docker,postman,vscode,visualstudio" />
-</p>
-
-</div>
 
 ---
 
