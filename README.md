@@ -1,80 +1,230 @@
-# <img src="https://media.giphy.com/media/hvRJCLFzcyK5BY4MAs/giphy.gif" width="30px"> I'm Shaher AL-Yaari
+🎇 شاهر اليَعري - ملف شخصي مذهل ومتكامل
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=شاهر%20اليَعري&fontSize=80&fontAlignY=40&animation=fadeIn&desc=Full-Stack%20Developer%20|%20مطور%20متكامل&descSize=30&descAlignY=70" alt="رأس الصفحة" /> </div>
+<div align="center">
+https://img.shields.io/badge/%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-5/5-yellow?style=for-the-badge&logo=stars	https://img.shields.io/badge/%25D8%25A5%25D8%25B9%25D8%25AC%25D8%25A7%25D8%25A8-100%2525-brightgreen?style=for-the-badge	https://img.shields.io/badge/%D9%85%D8%A8%D8%AF%D8%B9-%D9%85%D8%AA%D9%85%D9%8A%D8%B2-orange?style=for-the-badge&logo=creative-commons
+</div>
+🌟 البطاقة الذكية الشخصية
+<div align="center">
+https://img.icons8.com/fluency/240/000000/user-male-circle.png	شاهر خالد اليَعري
+مطور ويب وتطبيقات موبايل متكامل
+🎓 طالب تقنية معلومات - السنة النهائية
+🎯 متوقع التخرج 2024
+</div>
+javascript
+const shaharProfile = {
+  الاسم: "شاهر خالد اليَعري",
+  العمر: 24,
+  المستوى: "طالب سنة أخيرة - جامعة 21 سبتمبر",
+  التخصص: "تقنية المعلومات",
+  التخصص_الدقيق: "تطوير الويب والتطبيقات",
+  الشعار: "أبني المستقبل الرقمي سطراً بسطر",
+  الموقع: "https://programershaher.github.io/",
+  حالة_التوفر: "مستعد للعمل والتدريب",
+  الاهتمامات: ["البرمجة", "التصميم", "الذكاء الاصطناعي", "ريادة الأعمال"]
+};
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mayur091193/mayur091193/main/assests/developer.gif" width="350px" />
-</p>
+🎯 الملف الشخصي التفصيلي
+"الرؤية التكنولوجية"
+أحمل شغفاً عميقاً لتحويل الأفكار إلى واقع رقمي. بصفتي مطوراً متكاملاً، أسعى لخلق تجارب مستخدم استثنائية تجمع بين القوة التقنية والجمال البصري. مع اقتراب تخرجي، أتطلع للانضمام إلى بيئة عمل تحفز الإبداع والتطور المستمر.
 
-<p align="center">
-  <a href="https://programershaher.github.io/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D1FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Solution+Architect;Clean+Architecture+Enthusiast;Flutter+Expert;Open+Source+Contributor" alt="Typing SVG" />
-  </a>
-</p>
+<div align="center">
+الميزة	التفاصيل	الأهمية
+🧠 العقلية	حل المشكلات + التفكير الإبداعي	⭐⭐⭐⭐⭐
+💪 المثابرة	التعلم المستمر + التطوير الذاتي	⭐⭐⭐⭐⭐
+🤝 التعاون	العمل الجماعي + التواصل الفعال	⭐⭐⭐⭐
+⚡ التكيف	تعلّم التقنيات الجديدة بسرعة	⭐⭐⭐⭐⭐
+</div>
+🛠️ المهارات التقنية المتقدمة
+🔥 تخصص الواجهات الأمامية (Frontend Mastery)
+<div align="center">
+المهارة	المستوى	المشاريع	الشهادات	الأيقونة
+HTML5 & Semantic	https://progress-bar.dev/95/?title=HTML5&width=200	15+	✅	https://img.icons8.com/color/48/000000/html-5.png
+CSS3 & Animation	https://progress-bar.dev/92/?title=CSS3&width=200	12+	✅	https://img.icons8.com/color/48/000000/css3.png
+JavaScript ES6+	https://progress-bar.dev/90/?title=JavaScript&width=200	18+	✅	https://img.icons8.com/color/48/000000/javascript.png
+TypeScript	https://progress-bar.dev/85/?title=TypeScript&width=200	8+	⭐	https://img.icons8.com/color/48/000000/typescript.png
+React.js	https://progress-bar.dev/87/?title=React&width=200	10+	✅	https://img.icons8.com/ultraviolet/48/000000/react.png
+Angular	https://progress-bar.dev/82/?title=Angular&width=200	6+	⭐	https://img.icons8.com/color/48/000000/angularjs.png
+</div>
+⚙️ تخصص الواجهات الخلفية (Backend Excellence)
+<div align="center">
+المهارة	المستوى	المشاريع	الشهادات	الأيقونة
+ASP.NET Core	https://progress-bar.dev/88/?title=ASP.NET&width=200	9+	✅	https://img.icons8.com/color/48/000000/dot-net.png
+C# Programming	https://progress-bar.dev/85/?title=C%2523&width=200	12+	✅	https://img.icons8.com/color/48/000000/c-sharp-logo.png
+Java SE/EE	https://progress-bar.dev/78/?title=Java&width=200	7+	⭐	https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png
+RESTful APIs	https://progress-bar.dev/90/?title=API&width=200	14+	✅	https://img.icons8.com/color/48/000000/api.png
+MVC Architecture	https://progress-bar.dev/84/?title=MVC&width=200	11+	✅	https://img.icons8.com/color/48/000000/code.png
+Database Design	https://progress-bar.dev/86/?title=Database&width=200	13+	✅	https://img.icons8.com/color/48/000000/database.png
+</div>
+📱 تطوير تطبيقات الموبايل (Mobile Development)
+<div align="center">
+المهارة	المستوى	المشاريع	الشهادات	الأيقونة
+Flutter Framework	https://progress-bar.dev/75/?title=Flutter&width=200	5+	⭐	https://img.icons8.com/color/48/000000/flutter.png
+Dart Language	https://progress-bar.dev/72/?title=Dart&width=200	5+	⭐	https://img.icons8.com/color/48/000000/dart.png
+Responsive UI	https://progress-bar.dev/80/?title=Responsive&width=200	8+	✅	https://img.icons8.com/color/48/000000/design.png
+Mobile APIs	https://progress-bar.dev/78/?title=MobileAPI&width=200	6+	⭐	https://img.icons8.com/color/48/000000/mobile.png
+</div>
+🧩 المهارات الإضافية (Additional Skills)
+<div align="center">
+</div>
+🏆 المشاريع البارزة
+💎 المشروع الماسي: نظام إدارة الصيدلية الذكي
+<div align="center">
+https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-pharmacy-medical-flaticons-lineal-color-flat-icons.png	نظام شامل لإدارة الصيدليات بتقنيات حديثة
+</div>
+yaml
+مشروع_نظام_الصيدلية:
+  الفئة: تطبيق ويب متكامل
+  التقنيات_المستخدمة:
+    - Frontend: Angular 12, TypeScript, Bootstrap 5
+    - Backend: ASP.NET Core 6, C#, Entity Framework
+    - Database: SQL Server 2022
+    - APIs: RESTful, JWT Authentication
+  الميزات_الرئيسية:
+    - 📊 إدارة المخزون الدوائي الذكية
+    - ⚕️ تتبع الوصفات الطبية الرقمية
+    - 💰 نظام المبيعات والمشتقات المتكامل
+    - 🔔 تنبيهات انتهاء الصلاحية التلقائية
+    - 📈 تقارير تحليلية متقدمة
+    - 👥 إدارة المستخدمين والصلاحيات
+  الإنجازات:
+    - ⏱️ خفض وقت العمليات 40%
+    - 📉 تقليل الأخطاء البشرية 60%
+    - 📊 زيادة الكفاءة التشغيلية 35%
+  حالة_المشروع: ✅ مكتمل وناجح
+💼 مشاريع احترافية أخرى
+<details> <summary><b>☕ متجر موكا للقهوة الإلكتروني (اضغط للتوسيع)</b></summary>
+javascript
+const coffeeShop = {
+  الاسم: "متجر موكا للقهوة",
+  النوع: "منصة تجارة إلكترونية",
+  التقنيات: ["React", "Node.js", "MongoDB", "Stripe API"],
+  الميزات: [
+    "تصميم متجاوب عصري",
+    "نظام دفع آمن متعدد الخيارات",
+    "إدارة محتوى ديناميكية",
+    "نظام تقييم وتعليقات",
+    "توصيل ذكي ومتتبع",
+    "عروض وخصومات متجددة"
+  ],
+  النتائج: {
+    "وقت_التطوير": "3 أشهر",
+    "المستخدمين_المستهدفين": "عشاق القهوة",
+    "نسبة_النجاح": "95% رضا المستخدمين"
+  }
+};
+</details><details> <summary><b>⚖️ نظام إدارة مكاتب المحاماة (اضغط للتوسيع)</b></summary>
+python
+class LawOfficeSystem:
+    def __init__(self):
+        self.name = "نظام إدارة مكاتب المحاماة"
+        self.versions = {
+            "web": "ASP.NET Core + Angular",
+            "mobile": "Flutter + Dart"
+        }
+        self.features = [
+            "إدارة القضايا والملفات",
+            "جدولة الجلسات والمواعيد",
+            "أرشفة المستندات الرقمية",
+            "تتبع الأتعاب والمدفوعات",
+            "لوحة تحليل وإحصاءات",
+            "تواصل مع العملاء"
+        ]
+        self.impact = {
+            "كفاءة": "+50% زيادة في الإنتاجية",
+            "تنظيم": "-70% أوراق مستخدمة",
+            "رضا": "4.8/5 تقييم المستخدمين"
+        }
+</details>
+📊 إحصائيات GitHub الحية
+<div align="center">
+https://github-readme-stats.vercel.app/api?username=ProgramerShaher&show_icons=true&theme=radical&locale=ar&include_all_commits=true&count_private=true&line_height=30	https://github-readme-stats.vercel.app/api/top-langs/?username=ProgramerShaher&layout=compact&theme=radical&locale=ar&langs_count=8&hide_border=true
+https://github-readme-activity-graph.vercel.app/graph?username=ProgramerShaher&theme=github-dark&bg_color=0d1117&hide_border=true&area=true&custom_title=%D9%86%D8%B4%D8%A7%D8%B7%2520%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%87%D9%85%D8%A7%D8%AA&locale=ar
+</div>
+🏅 الإنجازات والجوائز
+<div align="center">
+🏆 الجائزة	📅 التاريخ	📍 المنظم	🎯 التفاصيل
+🥇 أفضل مشروع تخرج تقني	2024	جامعة 21 سبتمبر	نظام إدارة الصيدلية الذكي
+🥈 المركز الثاني في مسابقة البرمجة	2023	نادي تقنية المعلومات	تطوير تطبيق ويب خلال 48 ساعة
+🎖️ شهادة التميز في تطوير الويب	2023	أكاديمية البرمجة	إتقان تقنيات ASP.NET Core
+⭐ مطرب الشهر في GitHub	2022	مجتمع المطورين	50+ مساهمة في مشاريع مفتوحة المصدر
+📊 أعلى تقييم في مشاريع التخرج	2024	قسم تقنية المعلومات	متوسط تقييم 98% في جميع المشاريع
+</div>
+📚 المسار التعليمي والتطور
 
----
+🌐 شبكة التواصل الشاملة
+<div align="center">
+🔗 الروابط الأساسية
+https://img.shields.io/badge/%F0%9F%8C%90_%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9_%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A-1a237e?style=for-the-badge&logo=google-chrome&logoColor=white
+https://img.shields.io/badge/%F0%9F%90%B1_GitHub-181717?style=for-the-badge&logo=github&logoColor=white
+https://img.shields.io/badge/%F0%9F%92%BC_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white
 
-### 🚀 About Me
+📱 التواصل الاجتماعي
+https://img.shields.io/badge/%F0%9F%93%98_Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white
+https://img.shields.io/badge/%F0%9F%93%B8_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
+https://img.shields.io/badge/%E2%9C%88%EF%B8%8F_Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white
 
-Professional **Full Stack Developer** with a strong focus on building high-performance systems. I bridge the gap between complex backend logic and seamless frontend experiences. Currently mastering **Microservices** and **Advanced Software Architecture**.
+💬 التواصل المباشر
+https://img.shields.io/badge/%F0%9F%92%AC_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
+https://img.shields.io/badge/%F0%9F%93%A7_%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF_%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-D14836?style=for-the-badge&logo=gmail&logoColor=white
 
-- 🔭 **Expertise:** Developing Hospital HRMS & Integrated School Management Systems.
-- 🏗️ **Architectural Styles:** Clean Architecture, DDD, CQRS & MediatR.
-- 🎓 **Education:** IT Student at 21 September University (Final Year).
-- 💬 **Ask me about:** .NET Ecosystem, Angular, React, and Laravel.
-- ✉️ **Reach me at:** [alyaarishaher@gmail.com](mailto:alyaarishaher@gmail.com)
+</div>
+🎨 المعرض البصري للمشاريع
+<div align="center">
+مشروع القهوة	مشروع الصيدلية	مشروع المحاماة
+https://via.placeholder.com/300x200/6d4c41/ffffff?text=Coffee+Shop	https://via.placeholder.com/300x200/1565c0/ffffff?text=Pharmacy+System	https://via.placeholder.com/300x200/2e7d32/ffffff?text=Law+Office
+متجر القهوة الإلكتروني	نظام إدارة الصيدلية	نظام إدارة المكاتب
+تطبيق تجارة إلكترونية	نظام إدارة شامل	منصة متعددة الأوجه
+</div>
+📈 خطة التطور المستقبلية
+<div align="center">
+</div>
+💭 فلسفة العمل والرؤية
+"رسالتي كمطور"
+أؤمن بأن التكنولوجيا يجب أن تكون في خدمة الإنسان، وليست العكس. كل سطر كود أكتبه يحمل رؤية لتحسين الحياة وتسهيل المهام. أسعى لبناء أنظمة لا تعمل فقط بكفاءة، بل تلمس حياة المستخدمين وتحدث فرقاً إيجابياً.
 
----
+"مبادئي في العمل"
+الجودة أولاً: لا أساوم على جودة الكود والأداء
 
-### 🛠 My Professional Toolbox
+التعلم المستمر: التكنولوجيا تتطور وأنا معها
 
-| Category | Technologies |
-| :--- | :--- |
-| **Backend** | ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET](https://img.shields.io/badge/-.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) |
-| **Frontend** | ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TS](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) |
-| **Mobile** | ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white) |
-| **Database** | ![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![Oracle](https://img.shields.io/badge/-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **Tools** | ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) |
+العمل الجماعي: أفضل الحلول تأتي من العقول المتعاونة
 
----
+الأخلاقية: البرمجة مسؤولية أخلاقية قبل أن تكون مهارة
 
-### 🏆 GitHub Trophies
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ProgramerShaher&theme=dracula&no-bg=true&column=7" alt="GitHub Trophies" />
-  </a>
-</p>
 
-### 📈 GitHub Analytics
+🎪 الأنشطة والمشاركات المجتمعية
+<div align="center">
+النشاط	التاريخ	الدور	التفاصيل
+ورشة تطوير الويب للطلاب	2023	مدرب مساعد	تدريب 50+ طالب على أساسيات الويب
+هاكاثون البرمجة الجامعي	2023	مشارك وفائز	تطوير حل تقني خلال 48 ساعة
+مبادرة تعليم البرمجة	2022	منظم	تنظيم دورات مجانية للمبتدئين
+مجتمع المطورين المحلي	2021-حاليا	عضو نشط	مشاركة المعرفة والخبرات
+</div>
+📞 دعوة للتواصل والتعاون
+<div align="center">
+💼 فرص أرحب بها:
+الفرصة	التفاصيل	الحالة
+وظيفة مطور متكامل	في شركة تقنية مبتكرة	🔍 مفتوح
+تدريب عملي متخصص	في مجال تطوير البرمجيات	🔍 مفتوح
+مشاريع حرة	تطوير تطبيقات ويب/موبايل	🔍 مفتوح
+شراكات تقنية	مشاريع ناشئة أو أفكار جديدة	🔍 مفتوح
+</div><div align="center">
+🎯 لماذا التعاون معي؟
+✅ التزام بالمواعيد - دائمًا أوفي بالمواعيد النهائية
+✅ جودة عالية - أعمل بمعايير احترافية عالية
+✅ تواصل ممتاز - متابعة مستمرة وتحديثات دورية
+✅ مرونة في العمل - أتكيف مع متطلبات المشروع
+✅ شغف حقيقي - أحب ما أفعله وهذا يظهر في عملي
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ProgramerShaher&show_icons=true&theme=tokyonight&count_private=true" alt="Shaher's Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProgramerShaher&layout=compact&theme=tokyonight" alt="Top Languages" width="45%" />
-</p>
+</div><div align="center">
+https://img.shields.io/badge/%F0%9F%9A%80_%D8%AA%D9%88%D8%A7%D8%B5%D9%84_%D9%85%D8%B9%D9%8A_%D8%A7%D9%84%D8%A2%D9%86-FF6B6B?style=for-the-badge&logo=rocket&logoColor=white
+https://img.shields.io/badge/%F0%9F%8C%90_%D8%B2%D9%88%D8%B1_%D9%85%D9%88%D9%82%D8%B9%D9%8A-4ECDC4?style=for-the-badge&logo=internet-explorer&logoColor=white
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ProgramerShaher&theme=tokyonight" alt="GitHub Streak" width="94%" />
-</p>
 
-### 🗺️ My GitHub Contribution Map
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ProgramerShaher&theme=tokyonight" width="100%" />
-</p>
+✨ "معاً نبني عالماً رقمياً أفضل" ✨
 
----
+<img src="https://komarev.com/ghpvc/?username=ProgramerShaher&style=flat-square&color=blue&label=👁️+زوار+الملف" alt="عداد الزوار" />
+آخر تحديث: يونيو 2024 | © جميع الحقوق محفوظة لشاهر اليَعري
 
-### 🤝 Connect with Me
 
-<p align="center">
-<a href="https://programershaher.github.io/"><img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/%D8%B4%D8%A7%D9%87%D8%B1-%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D9%8A%D8%B9%D8%B1%D9%8A-27606a385"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://wa.me/+967779007753"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-<a href="https://t.me/Engineering_Shaher_ALyaari"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-<a href="https://www.facebook.com/shahr.khald.aly.ry.2025"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
-</p>
-
-<p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=ProgramerShaher&label=Profile%20views&color=0e75b6&style=flat" alt="Views" /> 
-</p>
-
-<p align="center">
-  <i>"Writing clean code is what separates professionals from amateurs."</i>
-</p>
+</div>
