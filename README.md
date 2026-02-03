@@ -11,15 +11,15 @@
 
 <!-- Profile Stats Badges - LARGE -->
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=ProgramerShaher&label=👁️+زوار+الصفحة&color=00d1ff&style=for-the-badge&labelColor=1a1a2e" height="40" alt="Profile Views"/>
-<img src="https://img.shields.io/github/followers/ProgramerShaher?label=👥+متابعين&style=for-the-badge&color=512BD4&labelColor=1a1a2e" height="40" alt="Followers"/>
-<img src="https://img.shields.io/github/stars/ProgramerShaher?label=⭐+نجوم&style=for-the-badge&color=FFD700&labelColor=1a1a2e" height="40" alt="Stars"/>
+<img src="https://komarev.com/ghpvc/?username=ProgramerShaher&label=👁️+Profile+Views&color=00d1ff&style=for-the-badge&labelColor=1a1a2e" height="40" alt="Profile Views"/>
+<img src="https://img.shields.io/github/followers/ProgramerShaher?label=👥+Followers&style=for-the-badge&color=512BD4&labelColor=1a1a2e" height="40" alt="Followers"/>
+<img src="https://img.shields.io/github/stars/ProgramerShaher?label=⭐+Stars&style=for-the-badge&color=FFD700&labelColor=1a1a2e" height="40" alt="Stars"/>
 </p>
 
 <!-- MEGA Social Buttons -->
 <p align="center">
 <a href="https://programershaher.github.io/">
-<img src="https://img.shields.io/badge/🌐_الموقع_الشخصي-00D1FF?style=for-the-badge&logoColor=white&labelColor=1a1a2e" height="50"/>
+<img src="https://img.shields.io/badge/🌐_Personal_Website-00D1FF?style=for-the-badge&logoColor=white&labelColor=1a1a2e" height="50"/>
 </a>
 <a href="https://github.com/ProgramerShaher">
 <img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a" height="50"/>
@@ -172,10 +172,10 @@ const shaher = {
 <div align="center">
 
 <!-- Colorful Stats Cards -->
-<img src="https://img.shields.io/badge/💼_15+_مشروع_منجز-00D1FF?style=for-the-badge&labelColor=1a1a2e" height="40"/>
-<img src="https://img.shields.io/badge/⏱️_3+_سنوات_خبرة-512BD4?style=for-the-badge&labelColor=1a1a2e" height="40"/>
-<img src="https://img.shields.io/badge/💯_98%25_رضا_العملاء-47A248?style=for-the-badge&labelColor=1a1a2e" height="40"/>
-<img src="https://img.shields.io/badge/📝_50K+_سطر_كود-FF2D20?style=for-the-badge&labelColor=1a1a2e" height="40"/>
+<img src="https://img.shields.io/badge/💼_15+_Projects_Completed-00D1FF?style=for-the-badge&labelColor=1a1a2e" height="40"/>
+<img src="https://img.shields.io/badge/⏱️_3+_Years_Experience-512BD4?style=for-the-badge&labelColor=1a1a2e" height="40"/>
+<img src="https://img.shields.io/badge/💯_98%25_Client_Satisfaction-47A248?style=for-the-badge&labelColor=1a1a2e" height="40"/>
+<img src="https://img.shields.io/badge/📝_50K+_Lines_of_Code-FF2D20?style=for-the-badge&labelColor=1a1a2e" height="40"/>
 
 </div>
 
@@ -376,7 +376,7 @@ Docker           ███████████████░░░░░░
 
 ### 💊 نظام إدارة الصيدلية | Pharmacy Management System
 
-<img src="https://images.unsplash.com/photo-1576602976047-174e57a47881?w=900&h=450&fit=crop&auto=format" alt="Pharmacy System" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,209,255,0.3);"/>
+<img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=900&h=450&fit=crop&auto=format" alt="Pharmacy System" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,209,255,0.3);"/>
 
 **نظام ذكي ومتكامل لإدارة الصيدليات بكفاءة عالية**
 
@@ -413,8 +413,8 @@ Docker           ███████████████░░░░░░
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![Entity Framework](https://img.shields.io/badge/-EF_Core-512BD4?style=flat-square&logo=.net&logoColor=white)
 
-[![View Code](https://img.shields.io/badge/💻_شاهد_الكود-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-[![Live Demo](https://img.shields.io/badge/🚀_تجربة_مباشرة-00D1FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/ProgramerShaher)
+[![View Code](https://img.shields.io/badge/💻_View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D1FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/ProgramerShaher)
 
 <img width="80%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
@@ -427,7 +427,7 @@ Docker           ███████████████░░░░░░
 
 ### ⚖️ نظام إدارة المكاتب القانونية | Legal Office Management System
 
-<img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=900&h=450&fit=crop&auto=format" alt="Legal Office System" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(81,43,212,0.3);"/>
+<img src="https://images.unsplash.com/photo-1589216532380-b466a70fa775?w=900&h=450&fit=crop&auto=format" alt="Legal Office System" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(81,43,212,0.3);"/>
 
 **منصة ويب وموبايل شاملة لإدارة المكاتب القانونية بشكل احترافي**
 
@@ -464,8 +464,8 @@ Docker           ███████████████░░░░░░
 ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 
-[![View Code](https://img.shields.io/badge/💻_شاهد_الكود-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-[![Download APK](https://img.shields.io/badge/📱_تحميل_التطبيق-512BD4?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ProgramerShaher)
+[![View Code](https://img.shields.io/badge/💻_View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
+[![Download APK](https://img.shields.io/badge/📱_Download_App-512BD4?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ProgramerShaher)
 
 <img width="80%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
@@ -478,7 +478,7 @@ Docker           ███████████████░░░░░░
 
 ### 🛒 متجر القهوة الإلكتروني | Coffee E-Commerce Platform
 
-<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&h=450&fit=crop&auto=format" alt="Coffee Shop" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(255,45,32,0.3);"/>
+<img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=900&h=450&fit=crop&auto=format" alt="Coffee Shop" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(255,45,32,0.3);"/>
 
 **منصة تجارة إلكترونية متكاملة لبيع القهوة أونلاين**
 
@@ -515,8 +515,8 @@ Docker           ███████████████░░░░░░
 ![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
 
-[![View Code](https://img.shields.io/badge/💻_شاهد_الكود-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-[![Live Demo](https://img.shields.io/badge/🚀_تجربة_مباشرة-FF2D20?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/ProgramerShaher)
+[![View Code](https://img.shields.io/badge/💻_View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-FF2D20?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/ProgramerShaher)
 
 <img width="80%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
@@ -529,7 +529,7 @@ Docker           ███████████████░░░░░░
 
 ### 🏥 نظام إدارة المستشفيات | Hospital Management System
 
-<img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=900&h=450&fit=crop&auto=format" alt="Hospital System" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(71,164,72,0.3);"/>
+<img src="https://images.unsplash.com/photo-1516549889185-94f375f6470a?w=900&h=450&fit=crop&auto=format" alt="Hospital System" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(71,164,72,0.3);"/>
 
 **حل شامل ومتكامل للمؤسسات الطبية والمستشفيات**
 
@@ -566,8 +566,8 @@ Docker           ███████████████░░░░░░
 ![SignalR](https://img.shields.io/badge/-SignalR-512BD4?style=flat-square&logo=.net&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
 
-[![View Code](https://img.shields.io/badge/💻_شاهد_الكود-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-[![Documentation](https://img.shields.io/badge/📚_الوثائق-47A248?style=for-the-badge&logo=readme&logoColor=white)](https://github.com/ProgramerShaher)
+[![View Code](https://img.shields.io/badge/💻_View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
+[![Documentation](https://img.shields.io/badge/📚_Documentation-47A248?style=for-the-badge&logo=readme&logoColor=white)](https://github.com/ProgramerShaher)
 
 <img width="80%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
@@ -579,7 +579,7 @@ Docker           ███████████████░░░░░░
 
 ### 🔥 المزيد من المشاريع
 
-[![View All Projects](https://img.shields.io/badge/📂_شاهد_جميع_المشاريع_على_GitHub-6e5494?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e)](https://github.com/ProgramerShaher?tab=repositories)
+[![View All Projects](https://img.shields.io/badge/📂_View_All_Projects_on_GitHub-6e5494?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e)](https://github.com/ProgramerShaher?tab=repositories)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
@@ -939,7 +939,7 @@ graph LR
 
 **في غضون 24 ساعة | Within 24 hours** ⏱️
 
-[![تواصل معي الآن](https://img.shields.io/badge/🚀_تواصل_معي_الآن-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=128C7E)](https://wa.me/+967779007753)
+[![تواصل معي الآن](https://img.shields.io/badge/🚀_Contact_Me_Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=128C7E)](https://wa.me/+967779007753)
 
 </div>
 
@@ -995,7 +995,7 @@ Whether you're looking for a developer to join your team, want to collaborate on
 <br/><br/>
 <sub style="font-size: 14px;">آخر تحديث: فبراير 2026 | Last Update: February 2026</sub>
 <br/><br/>
-<img src="https://komarev.com/ghpvc/?username=ProgramerShaher&label=مشاهدات+الصفحة&color=00d1ff&style=for-the-badge" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=ProgramerShaher&label=Page+Views&color=00d1ff&style=for-the-badge" alt="Profile Views"/>
 <br/><br/>
 </td>
 </tr>
