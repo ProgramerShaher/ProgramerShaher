@@ -1,470 +1,25 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>شاهر اليَعري - مطور متكامل</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
-            color: #fff;
-            overflow-x: hidden;
-        }
-
-        /* Hero Section */
-        .hero {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        /* Animated Background */
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: 
-                radial-gradient(circle at 20% 50%, rgba(0, 209, 255, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(81, 43, 212, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 40% 20%, rgba(255, 45, 32, 0.1) 0%, transparent 50%);
-            animation: backgroundMove 15s ease-in-out infinite;
-        }
-
-        @keyframes backgroundMove {
-            0%, 100% { transform: scale(1) rotate(0deg); }
-            50% { transform: scale(1.1) rotate(5deg); }
-        }
-
-        /* Floating Particles */
-        .particles {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
-
-        .particle {
-            position: absolute;
-            width: 4px;
-            height: 4px;
-            background: rgba(0, 209, 255, 0.6);
-            border-radius: 50%;
-            animation: float 15s infinite;
-        }
-
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0) translateX(0);
-                opacity: 0;
-            }
-            10% {
-                opacity: 1;
-            }
-            90% {
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(-100vh) translateX(100px);
-                opacity: 0;
-            }
-        }
-
-        /* Content Container */
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            text-align: center;
-            max-width: 1200px;
-            padding: 20px;
-        }
-
-        /* Profile Image */
-        .profile-image {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            border: 5px solid #00D1FF;
-            margin: 0 auto 30px;
-            animation: pulse 3s ease-in-out infinite;
-            box-shadow: 0 0 40px rgba(0, 209, 255, 0.5);
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 80px;
-        }
-
-        @keyframes pulse {
-            0%, 100% {
-                transform: scale(1);
-                box-shadow: 0 0 40px rgba(0, 209, 255, 0.5);
-            }
-            50% {
-                transform: scale(1.05);
-                box-shadow: 0 0 60px rgba(0, 209, 255, 0.8);
-            }
-        }
-
-        /* Main Title */
-        .main-title {
-            font-size: 72px;
-            font-weight: bold;
-            margin-bottom: 20px;
-            background: linear-gradient(135deg, #00D1FF, #512BD4, #FF2D20);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            animation: gradientShift 5s ease infinite;
-            background-size: 200% 200%;
-        }
-
-        @keyframes gradientShift {
-            0%, 100% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-        }
-
-        /* Typing Animation Container */
-        .typing-container {
-            height: 120px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 30px 0;
-        }
-
-        .typing-text {
-            font-size: 42px;
-            font-weight: 600;
-            color: #00D1FF;
-            border-left: 3px solid #00D1FF;
-            padding-left: 15px;
-            white-space: nowrap;
-            overflow: hidden;
-            animation: blink 0.7s step-end infinite;
-        }
-
-        @keyframes blink {
-            50% { border-color: transparent; }
-        }
-
-        /* Description */
-        .description {
-            font-size: 24px;
-            color: #b0b0b0;
-            margin: 20px 0 40px;
-            line-height: 1.6;
-        }
-
-        /* Tech Stack Icons */
-        .tech-stack {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin: 40px 0;
-            flex-wrap: wrap;
-        }
-
-        .tech-icon {
-            width: 80px;
-            height: 80px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 40px;
-            transition: all 0.3s ease;
-            border: 2px solid rgba(0, 209, 255, 0.3);
-            animation: techFloat 3s ease-in-out infinite;
-        }
-
-        .tech-icon:nth-child(1) { animation-delay: 0s; }
-        .tech-icon:nth-child(2) { animation-delay: 0.2s; }
-        .tech-icon:nth-child(3) { animation-delay: 0.4s; }
-        .tech-icon:nth-child(4) { animation-delay: 0.6s; }
-        .tech-icon:nth-child(5) { animation-delay: 0.8s; }
-        .tech-icon:nth-child(6) { animation-delay: 1s; }
-
-        @keyframes techFloat {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-
-        .tech-icon:hover {
-            transform: scale(1.2) translateY(-5px);
-            border-color: #00D1FF;
-            box-shadow: 0 10px 30px rgba(0, 209, 255, 0.4);
-            background: rgba(0, 209, 255, 0.1);
-        }
-
-        /* CTA Buttons */
-        .cta-buttons {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 40px;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            padding: 18px 40px;
-            font-size: 18px;
-            font-weight: bold;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .btn-primary {
-            background: linear-gradient(135deg, #00D1FF, #512BD4);
-            color: white;
-            box-shadow: 0 10px 30px rgba(0, 209, 255, 0.3);
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(0, 209, 255, 0.5);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            color: #00D1FF;
-            border: 2px solid #00D1FF;
-        }
-
-        .btn-secondary:hover {
-            background: #00D1FF;
-            color: #000;
-            transform: translateY(-3px);
-        }
-
-        /* Scroll Indicator */
-        .scroll-indicator {
-            position: absolute;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            animation: bounce 2s infinite;
-        }
-
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
-            40% { transform: translateX(-50%) translateY(-20px); }
-            60% { transform: translateX(-50%) translateY(-10px); }
-        }
-
-        .scroll-indicator::before {
-            content: '↓';
-            font-size: 40px;
-            color: #00D1FF;
-        }
-
-        /* Stats Section */
-        .stats {
-            display: flex;
-            justify-content: center;
-            gap: 60px;
-            margin-top: 50px;
-            flex-wrap: wrap;
-        }
-
-        .stat-item {
-            text-align: center;
-        }
-
-        .stat-number {
-            font-size: 48px;
-            font-weight: bold;
-            color: #00D1FF;
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        .stat-label {
-            font-size: 18px;
-            color: #888;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .main-title {
-                font-size: 42px;
-            }
-            
-            .typing-text {
-                font-size: 24px;
-            }
-            
-            .description {
-                font-size: 18px;
-            }
-            
-            .tech-icon {
-                width: 60px;
-                height: 60px;
-                font-size: 30px;
-            }
-            
-            .profile-image {
-                width: 150px;
-                height: 150px;
-                font-size: 60px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="hero">
-        <!-- Animated Background Particles -->
-        <div class="particles" id="particles"></div>
-        
-        <div class="hero-content">
-            <!-- Profile Image -->
-            <div class="profile-image">👨‍💻</div>
-            
-            <!-- Main Title -->
-            <h1 class="main-title">شاهر خالد اليَعري</h1>
-            
-            <!-- Typing Animation -->
-            <div class="typing-container">
-                <div class="typing-text" id="typingText"></div>
-            </div>
-            
-            <!-- Description -->
-            <p class="description">
-                مطور متكامل محترف | طالب تقنية معلومات | مبتكر حلول تقنية
-                <br>
-                بناء أنظمة ذكية ومتطورة لتحويل الأفكار إلى واقع
-            </p>
-            
-            <!-- Tech Stack -->
-            <div class="tech-stack">
-                <div class="tech-icon" title="C#">C#</div>
-                <div class="tech-icon" title="Angular">🅰️</div>
-                <div class="tech-icon" title="React">⚛️</div>
-                <div class="tech-icon" title=".NET">🔷</div>
-                <div class="tech-icon" title="Flutter">📱</div>
-                <div class="tech-icon" title="SQL">🗄️</div>
-            </div>
-            
-            <!-- Stats -->
-            <div class="stats">
-                <div class="stat-item">
-                    <span class="stat-number">3+</span>
-                    <span class="stat-label">سنوات خبرة</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">15+</span>
-                    <span class="stat-label">مشروع منجز</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">50K+</span>
-                    <span class="stat-label">سطر كود</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">98%</span>
-                    <span class="stat-label">رضا العملاء</span>
-                </div>
-            </div>
-            
-            <!-- CTA Buttons -->
-            <div class="cta-buttons">
-                <a href="https://github.com/ProgramerShaher" class="btn btn-primary">
-                    🚀 شاهد أعمالي
-                </a>
-                <a href="https://wa.me/+967779007753" class="btn btn-secondary">
-                    📞 تواصل معي
-                </a>
-            </div>
-        </div>
-        
-        <!-- Scroll Indicator -->
-        <div class="scroll-indicator"></div>
-    </div>
-
-    <script>
-        // Typing Animation
-        const phrases = [
-            'أهلاً بك 👋 أنا شاهر اليَعري',
-            'Full Stack Developer 💻',
-            'مطور أنظمة ذكية 🚀',
-            'Angular & .NET Expert 🎯',
-            'بناء حلول متطورة ✨',
-            'Mobile Apps Developer 📱',
-            'Crafting Digital Excellence 🌟'
-        ];
-        
-        let phraseIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-        const typingText = document.getElementById('typingText');
-        const typingSpeed = 100;
-        const deletingSpeed = 50;
-        const pauseTime = 2000;
-        
-        function type() {
-            const currentPhrase = phrases[phraseIndex];
-            
-            if (isDeleting) {
-                typingText.textContent = currentPhrase.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                typingText.textContent = currentPhrase.substring(0, charIndex + 1);
-                charIndex++;
-            }
-            
-            if (!isDeleting && charIndex === currentPhrase.length) {
-                isDeleting = true;
-                setTimeout(type, pauseTime);
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                phraseIndex = (phraseIndex + 1) % phrases.length;
-                setTimeout(type, 500);
-            } else {
-                setTimeout(type, isDeleting ? deletingSpeed : typingSpeed);
-            }
-        }
-        
-        // Start typing animation
-        setTimeout(type, 1000);
-        
-        // Generate Particles
-        const particlesContainer = document.getElementById('particles');
-        for (let i = 0; i < 50; i++) {
-            const particle = document.createElement('div');
-            particle.classList.add('particle');
-            particle.style.left = Math.random() * 100 + '%';
-            particle.style.animationDelay = Math.random() * 15 + 's';
-            particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
-            particlesContainer.appendChild(particle);
-        }
-    </script>
-</body>
-</html>
-
 <div align="center">
 
-<!-- Header with animated typing effect -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=00D1FF&center=true&vCenter=true&width=940&lines=%D8%A3%D9%87%D9%84%D8%A7%D9%8B+%D8%A8%D9%83+%F0%9F%91%8B+%D8%A3%D9%86%D8%A7+%D8%B4%D8%A7%D9%87%D8%B1+%D8%A7%D9%84%D9%8A%D9%8E%D8%B9%D8%B1%D9%8A;Full+Stack+Developer+%F0%9F%9A%80;Crafting+Digital+Excellence+%F0%9F%92%BB;Building+Tomorrow%27s+Solutions+Today+%E2%9C%A8" alt="Typing SVG" />
+<!-- Animated Hero Section -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=شاهر%20خالد%20اليَعري&fontSize=70&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20مطور%20متكامل%20محترف&descAlignY=55&descSize=25&animation=twinkling" width="100%"/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+<!-- Animated Typing SVG - HUGE -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&duration=2800&pause=1000&color=00D1FF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=200&lines=👋+أهلاً+بك!+أنا+شاهر+اليَعري;Full+Stack+Developer+💻;مطور+أنظمة+ذكية+ومتطورة+🚀;Angular+%26+.NET+Expert+🎯;بناء+حلول+تقنية+متكاملة+✨;Mobile+Apps+Developer+📱;Crafting+Digital+Excellence+🌟" alt="Typing SVG" />
+
+<!-- Profile Views Counter -->
+<img src="https://komarev.com/ghpvc/?username=ProgramerShaher&label=زوار%20الصفحة&color=00d1ff&style=for-the-badge" alt="Profile Views"/>
+
+<!-- Social Links - Large Buttons -->
+<p>
+<a href="https://programershaher.github.io/"><img src="https://img.shields.io/badge/🌐_الموقع_الشخصي-00D1FF?style=for-the-badge&logoColor=white" alt="Website"/></a>
+<a href="https://github.com/ProgramerShaher"><img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/شاهر-خالد-اليعري-27606a385"><img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:alyaarishaher@gmail.com"><img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://wa.me/+967779007753"><img src="https://img.shields.io/badge/📱_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+</p>
+
+<!-- Animated Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 </div>
 
@@ -472,40 +27,44 @@
 
 <div align="center">
 
-### 🌟 مطور متكامل | مبتكر حلول تقنية | طالب تقنية معلومات 🌟
+## 🌟 نبذة عني | About Me
 
-[![Portfolio](https://img.shields.io/badge/🌐_Personal_Website-00D1FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://programershaher.github.io/)
-[![GitHub](https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/شاهر-خالد-اليعري-27606a385)
-[![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alyaarishaher@gmail.com)
+<table>
+<tr>
+<td width="50%">
+
+### 👨‍💻 المعلومات الشخصية
+
+🎓 **طالب تقنية معلومات** - جامعة 21 سبتمبر  
+📅 **السنة الدراسية:** السنة الأخيرة (2024)  
+🌍 **الموقع:** اليمن 🇾🇪  
+💼 **التخصص:** Full Stack Development  
+📧 **Email:** alyaarishaher@gmail.com  
+📱 **Phone:** +967779007753
+
+</td>
+<td width="50%">
+
+### 🚀 التخصصات
+
+✅ أنظمة إدارة المستشفيات 🏥  
+✅ أنظمة إدارة المدارس 🏫  
+✅ أنظمة إدارة الصيدليات 💊  
+✅ أنظمة المكاتب القانونية ⚖️  
+✅ حلول التجارة الإلكترونية 🛒  
+✅ تطبيقات الموبايل 📱
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 </div>
 
 ---
 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
-
-### 👨‍💻 نبذة عني
-
-**🎓 طالب تقنية معلومات** في جامعة 21 سبتمبر - السنة الأخيرة  
-**💼 مطور متكامل محترف** متخصص في بناء أنظمة عالية الأداء  
-**🌍 الموقع:** اليمن 🇾🇪  
-**🎯 التخرج المتوقع:** 2024
-
-**🚀 مجالات التخصص:**
-- 🏥 أنظمة إدارة المستشفيات
-- 🏫 أنظمة إدارة المدارس
-- 💊 أنظمة إدارة الصيدليات
-- ⚖️ أنظمة إدارة المكاتب القانونية
-- 🛒 حلول التجارة الإلكترونية
-
-**💡 شعاري:** Clean Code | Best Practices | Innovation
-
-<br clear="right"/>
-
----
-
-## 🛠️ مجموعة التقنيات والأدوات
+## 🛠️ التقنيات والأدوات | Tech Stack
 
 <div align="center">
 
@@ -530,12 +89,10 @@
 ![ASP.NET](https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=for-the-badge&logo=.net&logoColor=white)
 
 ### 📱 Mobile Development
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 ### 🗄️ قواعد البيانات
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
@@ -544,46 +101,38 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### 🔧 الأدوات والتقنيات
+### 🔧 الأدوات
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 إحصائيات GitHub
+## 📊 إحصائيات GitHub | GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ProgramerShaher&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProgramerShaher&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=ProgramerShaher&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProgramerShaher&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" height="180"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ProgramerShaher&theme=radical&hide_border=true" alt="GitHub Streak" width="500"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ProgramerShaher&theme=radical&hide_border=true" alt="GitHub Streak" width="600"/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ProgramerShaher&theme=radical" alt="Profile Details" width="900"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ProgramerShaher&theme=react-dark&hide_border=true&area=true" alt="Activity Graph" width="900"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ProgramerShaher&custom_title=مساهمات%20شاهر%20اليَعري&bg_color=0D1117&color=00D1FF&line=512BD4&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" width="100%"/>
 
 </div>
 
 ---
 
-## 🏆 إنجازات ومهارات
+## 🏆 الإنجازات | Achievements
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ProgramerShaher&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15" alt="Trophy" width="900"/>
-
-</div>
+<img src="https://github-profile-trophy.vercel.app/?username=ProgramerShaher&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15" alt="Trophy" width="100%"/>
 
 ### 📈 مستويات الإتقان
-
-<div align="center">
 
 | المجال | المهارة | المستوى | الخبرة |
 |:---:|:---:|:---:|:---:|
@@ -593,224 +142,116 @@
 | ⚙️ **Backend** | Laravel | ![85%](https://progress-bar.dev/85?title=Advanced&width=200&color=ff2d20) | 2 سنة |
 | 📱 **Mobile** | Flutter | ![85%](https://progress-bar.dev/85?title=Advanced&width=200&color=02569b) | 2 سنة |
 | 🗄️ **Database** | SQL Server | ![92%](https://progress-bar.dev/92?title=Expert&width=200&color=cc2927) | 3 سنوات |
-| 💻 **Language** | C# | ![94%](https://progress-bar.dev/94?title=Expert&width=200&color=239120) | 3 سنوات |
-| 📊 **DevOps** | Git & Docker | ![78%](https://progress-bar.dev/78?title=Proficient&width=200&color=f05032) | 2 سنة |
 
 </div>
 
 ---
 
-## 🚀 المشاريع البارزة
+## 🚀 المشاريع البارزة | Featured Projects
 
 <div align="center">
-
-<table>
-<tr>
-<td width="50%">
 
 ### 💊 نظام إدارة الصيدلية
+
+<img src="https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&h=400&fit=crop" alt="Pharmacy System" style="border-radius: 15px; margin: 20px 0;"/>
+
 **نظام ذكي متكامل لإدارة الصيدليات**
 
-<img src="https://images.unsplash.com/photo-1576602976047-174e57a47881?w=500&h=300&fit=crop" alt="Pharmacy System" style="border-radius: 10px; margin: 10px 0;"/>
+[![View Project](https://img.shields.io/badge/🔍_View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-
-**التقنيات المستخدمة:**
-- ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-- ![.NET](https://img.shields.io/badge/-.NET_Core-512BD4?style=flat-square&logo=.net&logoColor=white)
-- ![SQL Server](https://img.shields.io/badge/-SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
+**التقنيات:** ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular) ![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=.net) ![SQL Server](https://img.shields.io/badge/-SQL-CC2927?style=flat-square&logo=microsoft-sql-server)
 
 **المميزات:**
-✅ إدارة المخزون الذكية  
-✅ نظام الفواتير والمبيعات  
-✅ تقارير تحليلية متقدمة  
-✅ واجهة مستخدم عصرية
+- ✅ إدارة المخزون الذكية
+- ✅ نظام الفواتير والمبيعات
+- ✅ تقارير تحليلية متقدمة
+- ✅ واجهة مستخدم عصرية
 
-</td>
-<td width="50%">
+---
 
 ### ⚖️ نظام إدارة المكاتب القانونية
+
+<img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=400&fit=crop" alt="Legal Office System" style="border-radius: 15px; margin: 20px 0;"/>
+
 **منصة ويب وموبايل شاملة**
 
-<img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=500&h=300&fit=crop" alt="Legal Office System" style="border-radius: 10px; margin: 10px 0;"/>
+[![View Project](https://img.shields.io/badge/🔍_View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-
-**التقنيات المستخدمة:**
-- ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-- ![ASP.NET](https://img.shields.io/badge/-ASP.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
-- ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+**التقنيات:** ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter) ![ASP.NET](https://img.shields.io/badge/-ASP.NET-5C2D91?style=flat-square&logo=.net) ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase)
 
 **المميزات:**
-✅ إدارة القضايا والمواعيد  
-✅ تطبيق موبايل متقدم  
-✅ إشعارات فورية  
-✅ أرشفة ذكية للمستندات
+- ✅ إدارة القضايا والمواعيد
+- ✅ تطبيق موبايل متقدم
+- ✅ إشعارات فورية
+- ✅ أرشفة ذكية للمستندات
 
-</td>
-</tr>
-
-<tr>
-<td width="50%">
+---
 
 ### 🛒 متجر القهوة الإلكتروني
+
+<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=400&fit=crop" alt="Coffee Shop" style="border-radius: 15px; margin: 20px 0;"/>
+
 **منصة تجارة إلكترونية متكاملة**
 
-<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&h=300&fit=crop" alt="Coffee Shop" style="border-radius: 10px; margin: 10px 0;"/>
+[![View Project](https://img.shields.io/badge/🔍_View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-
-**التقنيات المستخدمة:**
-- ![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-- ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-- ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+**التقنيات:** ![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb)
 
 **المميزات:**
-✅ عربة تسوق ذكية  
-✅ نظام دفع آمن  
-✅ لوحة تحكم إدارية  
-✅ تجربة مستخدم سلسة
+- ✅ عربة تسوق ذكية
+- ✅ نظام دفع آمن
+- ✅ لوحة تحكم إدارية
+- ✅ تجربة مستخدم سلسة
 
-</td>
-<td width="50%">
+---
 
 ### 🏥 نظام إدارة المستشفيات
+
+<img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=400&fit=crop" alt="Hospital System" style="border-radius: 15px; margin: 20px 0;"/>
+
 **حل شامل للمؤسسات الطبية**
 
-<img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=500&h=300&fit=crop" alt="Hospital System" style="border-radius: 10px; margin: 10px 0;"/>
+[![View Project](https://img.shields.io/badge/🔍_View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-
-**التقنيات المستخدمة:**
-- ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-- ![.NET](https://img.shields.io/badge/-.NET_Core-512BD4?style=flat-square&logo=.net&logoColor=white)
-- ![SQL Server](https://img.shields.io/badge/-SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
+**التقنيات:** ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular) ![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=.net) ![SQL Server](https://img.shields.io/badge/-SQL-CC2927?style=flat-square&logo=microsoft-sql-server)
 
 **المميزات:**
-✅ إدارة المرضى والمواعيد  
-✅ السجلات الطبية الإلكترونية  
-✅ نظام الصيدلية المتكامل  
-✅ تقارير طبية شاملة
+- ✅ إدارة المرضى والمواعيد
+- ✅ السجلات الطبية الإلكترونية
+- ✅ نظام الصيدلية المتكامل
+- ✅ تقارير طبية شاملة
 
-</td>
-</tr>
-</table>
+---
 
-[![View All Projects on GitHub](https://img.shields.io/badge/📂_View_All_Projects_on_GitHub-6e5494?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher?tab=repositories)
+[![View All Projects](https://img.shields.io/badge/📂_شاهد_جميع_المشاريع-6e5494?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher?tab=repositories)
 
 </div>
 
 ---
 
-## 💼 الخبرات والمهارات المتقدمة
+## 💡 فلسفة التطوير | Development Philosophy
 
 <div align="center">
 
-### 🎯 مجالات التخصص
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote"/>
 
-**Frontend Development (35%)**
-- Angular, React, TypeScript
-- HTML5, CSS3, Bootstrap
+### 🎯 مبادئي في البرمجة
 
-**Backend Development (40%)**
-- ASP.NET Core, Laravel
-- REST APIs, Microservices
-
-**Mobile Development (10%)**
-- Flutter, Dart
-- Cross-platform apps
-
-**Database Management (15%)**
-- SQL Server, MySQL, Oracle
-- Database Design & Optimization
-
-</div>
-
-### 🏗️ الأنماط المعمارية
-
-<div align="center">
-
-| النمط المعماري | الوصف | مستوى الإتقان |
+| 🎨 جودة الكود | 🚀 الابتكار المستمر | 🤝 التعاون |
 |:---:|:---:|:---:|
-| 🏛️ **Clean Architecture** | فصل طبقات التطبيق وتنظيمها | ![95%](https://progress-bar.dev/95) |
-| 📋 **MVC Pattern** | نمط Model-View-Controller | ![92%](https://progress-bar.dev/92) |
-| 🔄 **Repository Pattern** | فصل منطق الوصول للبيانات | ![90%](https://progress-bar.dev/90) |
-| ⚡ **CQRS** | فصل عمليات القراءة والكتابة | ![85%](https://progress-bar.dev/85) |
-| 🎯 **Domain-Driven Design** | التصميم المعتمد على النطاق | ![80%](https://progress-bar.dev/80) |
-| 🔌 **Microservices** | بناء الخدمات الصغيرة المستقلة | ![75%](https://progress-bar.dev/75) |
+| ✨ Clean Code | 📚 Always Learning | 👥 Team Player |
+| 📝 Best Practices | 🔄 Stay Updated | 🌐 Open Source |
+| 🏗️ SOLID Principles | 💡 Embrace Change | 📖 Knowledge Sharing |
 
 </div>
 
 ---
 
-## 🎓 التعليم والشهادات
+## 📞 تواصل معي | Contact Me
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%">
-
-### 🎓 التعليم الأكاديمي
-<img src="https://img.icons8.com/fluency/96/000000/graduation-cap.png" width="80"/>
-
-**جامعة 21 سبتمبر**  
-📚 بكالوريوس تقنية المعلومات  
-📅 2021 - 2024  
-🏆 معدل تراكمي ممتاز  
-🎯 السنة الأخيرة
-
-**التخصصات:**
-- هندسة البرمجيات
-- تطوير الويب
-- قواعد البيانات
-- هندسة الأنظمة
-
-</td>
-<td width="50%">
-
-### 📜 الشهادات التقنية
-<img src="https://img.icons8.com/color/96/000000/certificate.png" width="80"/>
-
-🏅 **ASP.NET Core المتقدمة**  
-🏅 **دورة Flutter الشاملة**  
-🏅 **Angular الاحترافية**  
-🏅 **Database Design & SQL**  
-🏅 **Clean Code Principles**  
-🏅 **Git & Version Control**  
-🏅 **Docker Essentials**  
-🏅 **API Development**
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 🌟 الإنجازات والجوائز
-
-<div align="center">
-
-| 🏆 الإنجاز | 📅 السنة | 🎯 التفاصيل |
-|:---:|:---:|:---|
-| 🥇 **أفضل مشروع تخرج** | 2024 | نظام إدارة الصيدلية الذكي - المركز الأول |
-| ⭐ **مطور الشهر** | 2023 | 100+ مساهمة في مشاريع مفتوحة المصدر |
-| 🎖️ **شهادة التميز** | 2023 | تميز في ASP.NET Core Development |
-| 🏅 **هاكاثون الجامعة** | 2022 | المركز الأول - تطوير تطبيقات الويب |
-| 💯 **تقييم المشاريع** | 2024 | متوسط 98% في جميع المشاريع الدراسية |
-| 🌐 **مشاريع حرة ناجحة** | 2022-2024 | 15+ مشروع منجز بنجاح |
-
-</div>
-
----
-
-## 📞 تواصل معي
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ### 🌐 قنوات التواصل
 
@@ -819,37 +260,25 @@
 <td align="center" width="25%">
 <a href="https://programershaher.github.io/">
 <img src="https://img.icons8.com/fluency/96/000000/domain.png" width="64"/>
-<br/>
-<strong>Personal Website</strong>
-<br/>
-<img src="https://img.shields.io/badge/Visit-00D1FF?style=for-the-badge"/>
+<br/><strong>Personal Website</strong>
 </a>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/ProgramerShaher">
 <img src="https://img.icons8.com/fluency/96/000000/github.png" width="64"/>
-<br/>
-<strong>GitHub</strong>
-<br/>
-<img src="https://img.shields.io/badge/Follow-181717?style=for-the-badge"/>
+<br/><strong>GitHub</strong>
 </a>
 </td>
 <td align="center" width="25%">
 <a href="https://www.linkedin.com/in/شاهر-خالد-اليعري-27606a385">
 <img src="https://img.icons8.com/fluency/96/000000/linkedin.png" width="64"/>
-<br/>
-<strong>LinkedIn</strong>
-<br/>
-<img src="https://img.shields.io/badge/Connect-0077B5?style=for-the-badge"/>
+<br/><strong>LinkedIn</strong>
 </a>
 </td>
 <td align="center" width="25%">
 <a href="mailto:alyaarishaher@gmail.com">
 <img src="https://img.icons8.com/fluency/96/000000/gmail.png" width="64"/>
-<br/>
-<strong>Email</strong>
-<br/>
-<img src="https://img.shields.io/badge/Send-D14836?style=for-the-badge"/>
+<br/><strong>Email</strong>
 </a>
 </td>
 </tr>
@@ -857,450 +286,46 @@
 <td align="center" width="25%">
 <a href="https://wa.me/+967779007753">
 <img src="https://img.icons8.com/fluency/96/000000/whatsapp.png" width="64"/>
-<br/>
-<strong>WhatsApp</strong>
-<br/>
-<img src="https://img.shields.io/badge/Chat-25D366?style=for-the-badge"/>
+<br/><strong>WhatsApp</strong>
 </a>
 </td>
 <td align="center" width="25%">
 <a href="https://t.me/Engineering_Shaher_ALyaari">
 <img src="https://img.icons8.com/fluency/96/000000/telegram-app.png" width="64"/>
-<br/>
-<strong>Telegram</strong>
-<br/>
-<img src="https://img.shields.io/badge/Join-2CA5E0?style=for-the-badge"/>
+<br/><strong>Telegram</strong>
 </a>
 </td>
 <td align="center" width="25%">
 <a href="https://www.facebook.com/shahr.khald.aly.ry.2025">
 <img src="https://img.icons8.com/fluency/96/000000/facebook-new.png" width="64"/>
-<br/>
-<strong>Facebook</strong>
-<br/>
-<img src="https://img.shields.io/badge/Follow-1877F2?style=for-the-badge"/>
+<br/><strong>Facebook</strong>
 </a>
 </td>
 <td align="center" width="25%">
 <a href="https://www.instagram.com/shhrlyry">
 <img src="https://img.icons8.com/fluency/96/000000/instagram-new.png" width="64"/>
-<br/>
-<strong>Instagram</strong>
-<br/>
-<img src="https://img.shields.io/badge/Follow-E4405F?style=for-the-badge"/>
+<br/><strong>Instagram</strong>
 </a>
 </td>
 </tr>
 </table>
 
-### 📧 معلومات الاتصال السريع
+### 📧 معلومات الاتصال
 
 **📧 Email:** alyaarishaher@gmail.com  
 **📱 Phone:** +967779007753  
 **📍 Location:** اليمن 🇾🇪  
 **🌐 Website:** https://programershaher.github.io/
 
-**🎯 متاح للعمل:**
-- ✅ Freelance Projects
-- ✅ Full-time Opportunities  
-- ✅ Part-time Work
-- ✅ Technical Consultation
+**🎯 متاح للعمل:** Freelance | Full-time | Part-time | Consultation
 
-**⏱️ Response Time:** Within 24 hours
+[![Contact Me](https://img.shields.io/badge/🚀_تواصل_معي_الآن-00D1FF?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+967779007753)
 
 </div>
 
 ---
 
-## 💭 فلسفة التطوير
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote"/>
-
-### 🎯 مبادئي في البرمجة
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### 🎨 **جودة الكود**
-
-- ✨ Clean Code
-- 📝 Best Practices
-- 🏗️ SOLID Principles
-- 🔍 Code Reviews
-
-*"الكود النظيف يتحدث عن نفسه"*
-
-</td>
-<td width="33%" align="center">
-
-### 🚀 **الابتكار المستمر**
-
-- 📚 Always Learning
-- 🔄 Stay Updated
-- 💡 Embrace Change
-- 🎨 Think Creative
-
-*"التعلم رحلة لا تنتهي"*
-
-</td>
-<td width="33%" align="center">
-
-### 🤝 **التعاون والمشاركة**
-
-- 👥 Team Player
-- 🌐 Open Source
-- 📖 Knowledge Sharing
-- 🏘️ Community Driven
-
-*"معاً نصنع الفرق"*
-
-</td>
-</tr>
-</table>
-
-### 📋 منهجية العمل
-
-**1. 🎯 فهم المتطلبات** → تحليل احتياجات المشروع بدقة  
-**2. 📝 التخطيط والتصميم** → وضع خطة عمل واضحة  
-**3. 💻 التطوير والاختبار** → كتابة كود نظيف ومختبر  
-**4. 🔍 المراجعة والتحسين** → تحسين الأداء والجودة  
-**5. 🚀 النشر والتسليم** → إطلاق المشروع بنجاح  
-**6. 📊 المتابعة والدعم** → دعم مستمر وتحديثات
-
-</div>
-
----
-
-## 📈 نشاطي على GitHub
-
-<div align="center">
-
-### 🔥 سلسلة المساهمات
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ProgramerShaher&custom_title=مساهمات%20شاهر%20اليَعري&bg_color=0D1117&color=00D1FF&line=512BD4&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" width="900"/>
-
-### 📊 إحصائيات تفصيلية
-
-<table>
-<tr>
-<td>
-<img src="https://github-readme-stats.vercel.app/api?username=ProgramerShaher&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&custom_title=إحصائيات%20GitHub" height="200"/>
-</td>
-<td>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProgramerShaher&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=اللغات%20الأكثر%20استخداماً" height="200"/>
-</td>
-</tr>
-</table>
-
-### 🏆 ملخص الإنجازات
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ProgramerShaher&theme=radical" alt="Productive Time" width="400"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ProgramerShaher&theme=radical" alt="Repos Per Language" width="400"/>
-
-</div>
-
----
-
-## 🎮 الاهتمامات والهوايات
-
-<div align="center">
-
-<table>
-<tr>
-<td width="25%" align="center">
-<img src="https://img.icons8.com/fluency/96/000000/code.png" width="64"/>
-<br/>
-<strong>البرمجة</strong>
-<br/>
-<img src="https://progress-bar.dev/100?title=Passion&width=120&color=00D1FF"/>
-</td>
-<td width="25%" align="center">
-<img src="https://img.icons8.com/fluency/96/000000/design.png" width="64"/>
-<br/>
-<strong>التصميم</strong>
-<br/>
-<img src="https://progress-bar.dev/85?title=Interest&width=120&color=512BD4"/>
-</td>
-<td width="25%" align="center">
-<img src="https://img.icons8.com/fluency/96/000000/book.png" width="64"/>
-<br/>
-<strong>القراءة</strong>
-<br/>
-<img src="https://progress-bar.dev/90?title=Hobby&width=120&color=FF2D20"/>
-</td>
-<td width="25%" align="center">
-<img src="https://img.icons8.com/fluency/96/000000/dumbbell.png" width="64"/>
-<br/>
-<strong>الرياضة</strong>
-<br/>
-<img src="https://progress-bar.dev/70?title=Active&width=120&color=47A248"/>
-</td>
-</tr>
-</table>
-
-### 📚 مجالات الاهتمام
-
-![Software Architecture](https://img.shields.io/badge/-Software_Architecture-00D1FF?style=for-the-badge)
-![Cloud Computing](https://img.shields.io/badge/-Cloud_Computing-512BD4?style=for-the-badge)
-![AI & ML](https://img.shields.io/badge/-AI_&_ML-FF2D20?style=for-the-badge)
-![DevOps](https://img.shields.io/badge/-DevOps-47A248?style=for-the-badge)
-![Mobile Dev](https://img.shields.io/badge/-Mobile_Dev-02569B?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/-Open_Source-F7DF1E?style=for-the-badge)
-
-</div>
-
----
-
-## 🌍 تأثيري في المجتمع التقني
-
-<div align="center">
-
-### 📊 إحصائيات المساهمة
-
-| المقياس | العدد | الوصف |
-|:---:|:---:|:---|
-| 📦 **المستودعات** | 21+ | مشاريع متنوعة ومميزة |
-| ⭐ **النجوم** | 50+ | تقدير من المجتمع |
-| 🔱 **الفروع** | 15+ | مساهمات في مشاريع أخرى |
-| 👥 **المتابعون** | 10+ | مجتمع متنامي |
-| 🤝 **المساهمات** | 500+ | مساهمات نشطة |
-| 💻 **أكواد مكتوبة** | 50,000+ | سطر من الكود النظيف |
-
-### 🌟 التأثير
-
-```
-┌─────────────────────────────────────────────────────┐
-│  🎯 الرؤية: بناء حلول تقنية تحدث فرقاً حقيقياً     │
-├─────────────────────────────────────────────────────┤
-│  ✨ القيم:                                          │
-│     • الجودة قبل الكمية                             │
-│     • التعلم المستمر                                │
-│     • المشاركة المجتمعية                           │
-│     • الابتكار والإبداع                            │
-└─────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-## 🎯 الأهداف المستقبلية
-
-<div align="center">
-
-### 🗺️ خارطة الطريق
-
-**📅 2024 Q4**
-- 🎓 التخرج بتفوق
-- 🚀 إطلاق مشاريع جديدة
-- 📚 تعلم Kubernetes
-
-**📅 2025 Q1**
-- 💼 الحصول على وظيفة مميزة
-- 🏆 شهادات في Cloud Computing
-- 🌐 مشاريع مفتوحة المصدر
-
-**📅 2025 Q2**
-- 🏗️ التخصص في Microservices
-- 👥 بناء فريق تقني
-- 🎤 المشاركة في مؤتمرات
-
-**📅 2025 Q3**
-- 📱 إطلاق منتج تقني خاص
-- 💼 التوسع في الاستشارات
-- 📖 تدريب المطورين
-
-**📅 2025 Q4**
-- 💯 الوصول لـ 100K+ أسطر كود
-- 🏢 10+ مشاريع enterprise
-- 👨‍💼 قيادة فريق تطوير
-
-### 🎓 التعلم المستمر
-
-<table>
-<tr>
-<td width="50%">
-
-#### 📖 قيد الدراسة حالياً
-- ☁️ Cloud Architecture (AWS/Azure)
-- 🤖 Machine Learning Basics
-- 🔐 Cybersecurity Fundamentals
-- 📊 Data Science with Python
-- 🎨 Advanced UI/UX Design
-
-</td>
-<td width="50%">
-
-#### 🎯 الخطط القادمة
-- 🚀 Kubernetes & Orchestration
-- 🌐 GraphQL APIs
-- 📱 React Native Advanced
-- 🔧 CI/CD Pipeline Mastery
-- 💾 Redis & Caching Strategies
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 💡 نصائح للمطورين المبتدئين
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🌱 للمبتدئين
-
-**1. 📚 ابدأ بالأساسيات**
-- لا تتسرع في الأطر والمكتبات
-- افهم المفاهيم الأساسية جيداً
-
-**2. 💻 اكتب كود كل يوم**
-- الممارسة تصنع الكمال
-- ابنِ مشاريع صغيرة
-
-**3. 🤝 شارك في المجتمع**
-- ساهم في مشاريع مفتوحة
-- تعلم من الآخرين
-
-**4. 📖 اقرأ الكود**
-- اقرأ أكواد المطورين المحترفين
-- افهم الأنماط والممارسات
-
-</td>
-<td width="50%">
-
-### 🚀 للمتوسطين
-
-**1. 🏗️ تعلم الأنماط المعمارية**
-- Clean Architecture
-- Design Patterns
-
-**2. 🔍 اهتم بالجودة**
-- Unit Testing
-- Code Reviews
-
-**3. 📊 تعلم DevOps**
-- Git Flow
-- CI/CD
-
-**4. 🌐 وسع معرفتك**
-- تعلم تقنيات جديدة
-- ابقَ محدثاً
-
-</td>
-</tr>
-</table>
-
-### 🎯 أهم النصائح
-
-> *"الكود النظيف ليس فقط عن الكتابة الصحيحة، بل عن التفكير الصحيح"*
-
-![Tip 1](https://img.shields.io/badge/Tip_1-Start_small_and_grow_gradually-00D1FF?style=for-the-badge)
-![Tip 2](https://img.shields.io/badge/Tip_2-Don't_fear_mistakes,_learn_from_them-512BD4?style=for-the-badge)
-![Tip 3](https://img.shields.io/badge/Tip_3-Clean_code_is_better_than_fast_code-FF2D20?style=for-the-badge)
-![Tip 4](https://img.shields.io/badge/Tip_4-Share_your_knowledge_with_others-47A248?style=for-the-badge)
-
-</div>
-
----
-
-## 📚 الموارد والمراجع المفيدة
-
-<div align="center">
-
-### 🔗 روابط مفيدة للمطورين
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/stack-overflow.png" width="48"/>
-<br/>
-**Stack Overflow**
-<br/>
-<sub>للحلول التقنية</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/reddit.png" width="48"/>
-<br/>
-**r/programming**
-<br/>
-<sub>مجتمع المطورين</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/medium-logo.png" width="48"/>
-<br/>
-**Medium**
-<br/>
-<sub>مقالات تقنية</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/youtube-play.png" width="48"/>
-<br/>
-**YouTube**
-<br/>
-<sub>دروس مرئية</sub>
-</td>
-</tr>
-</table>
-
-### 📖 الكتب المفضلة
-
-- 📕 Clean Code - Robert C. Martin
-- 📗 Design Patterns - Gang of Four
-- 📘 The Pragmatic Programmer
-- 📙 Code Complete - Steve McConnell
-
-</div>
-
----
-
-## 🎨 معرض الأعمال
-
-<div align="center">
-
-### 🖼️ لقطات من المشاريع
-
-<table>
-<tr>
-<td width="50%">
-<img src="https://via.placeholder.com/400x300/DD0031/FFFFFF?text=Pharmacy+System" alt="Pharmacy System"/>
-<br/>
-<strong>نظام إدارة الصيدلية</strong>
-</td>
-<td width="50%">
-<img src="https://via.placeholder.com/400x300/512BD4/FFFFFF?text=Legal+Office+System" alt="Legal Office"/>
-<br/>
-<strong>نظام المكاتب القانونية</strong>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<img src="https://via.placeholder.com/400x300/02569B/FFFFFF?text=Coffee+Shop" alt="Coffee Shop"/>
-<br/>
-<strong>متجر القهوة الإلكتروني</strong>
-</td>
-<td width="50%">
-<img src="https://via.placeholder.com/400x300/47A248/FFFFFF?text=Hospital+System" alt="Hospital System"/>
-<br/>
-<strong>نظام إدارة المستشفيات</strong>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 🌟 كلمة أخيرة
+## 🌟 كلمة أخيرة | Final Words
 
 <div align="center">
 
@@ -1308,55 +333,14 @@
 
 ### 💭 رسالتي
 
-> *"أؤمن بأن التكنولوجيا يمكن أن تغير العالم للأفضل، وكل سطر كود نكتبه هو خطوة نحو هذا التغيير. البرمجة ليست مجرد وظيفة، بل شغف وفن وعلم. دعونا نبني المستقبل معاً!"*
-
-### 🚀 هل أنت مستعد للتعاون؟
-
-أنا متحمس دائماً للعمل على مشاريع جديدة ومبتكرة!  
-سواء كنت تبحث عن مطور للانضمام لفريقك، أو تريد التعاون في مشروع مفتوح المصدر،  
-أو حتى تحتاج لاستشارة تقنية - **أنا هنا!**
-
-[![Contact Me Now](https://img.shields.io/badge/🚀_Contact_Me_Now-00D1FF?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+967779007753)
-[![Visit My Website](https://img.shields.io/badge/🌐_Visit_My_Website-512BD4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://programershaher.github.io/)
-[![View My Projects](https://img.shields.io/badge/📂_View_My_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgramerShaher?tab=repositories)
+> *"أؤمن بأن التكنولوجيا يمكن أن تغير العالم للأفضل، وكل سطر كود نكتبه هو خطوة نحو هذا التغيير"*
 
 ---
 
-### 📊 Profile Views
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=twinkling" width="100%"/>
 
-<img src="https://komarev.com/ghpvc/?username=ProgramerShaher&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
+**صُنع بـ ❤️ بواسطة شاهر اليَعري** | **Made with ❤️ by Shaher Al-Yaari**
 
-### ⚡ Random Dev Quote
-
-<img src="https://readme-jokes.vercel.app/api?theme=radical&hideBorder" alt="Jokes Card"/>
-
----
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-<table width="100%">
-<tr>
-<td align="center">
-<strong>صُنع بـ ❤️ وكثير من ☕ بواسطة شاهر اليَعري</strong>
-<br/>
-<sub>آخر تحديث: فبراير 2026</sub>
-</td>
-</tr>
-</table>
-
-### 🔗 Quick Links
-
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000?style=flat&logo=react&logoColor=white)](https://programershaher.github.io/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ProgramerShaher)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/شاهر-خالد-اليعري-27606a385)
-[![WhatsApp](https://img.shields.io/badge/-WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/+967779007753)
-[![Telegram](https://img.shields.io/badge/-Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/Engineering_Shaher_ALyaari)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:alyaarishaher@gmail.com)
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling"/>
-</p>
+<sub>آخر تحديث: فبراير 2026 | Last Update: February 2026</sub>
 
 </div>
