@@ -2,59 +2,50 @@
 
 <h1>Shaher Alyaari</h1>
 
-<h3>Full-Stack Engineer • ASP.NET Core • Angular • Flutter</h3>
-
-<p>
-Building scalable business systems & real-world applications
-</p>
-
-<p>
-<a href="https://programershaher.github.io/">Portfolio</a> •
-<a href="https://www.linkedin.com/in/شاهر-خالد-اليعري-27606a385">LinkedIn</a> •
-<a href="mailto:alyaarishaher@gmail.com">Email</a> •
-<a href="https://github.com/ProgramerShaher">GitHub</a>
-</p>
-
-<br/>
+<h3>Full-Stack Developer | ASP.NET Core • Angular • Flutter</h3>
 
 <img src="https://img.shields.io/badge/Backend-ASP.NET%20Core-purple?style=flat" />
 <img src="https://img.shields.io/badge/Frontend-Angular-red?style=flat" />
 <img src="https://img.shields.io/badge/Mobile-Flutter-blue?style=flat" />
 <img src="https://img.shields.io/badge/Database-SQL-green?style=flat" />
 
+<br/>
+
+<a href="https://programershaher.github.io/"><strong>Portfolio</strong></a> &nbsp;|&nbsp;
+<a href="https://github.com/ProgramerShaher"><strong>GitHub</strong></a> &nbsp;|&nbsp;
+<a href="https://www.linkedin.com/in/شاهر-خالد-اليعري-27606a385"><strong>LinkedIn</strong></a> &nbsp;|&nbsp;
+<a href="mailto:alyaarishaher@gmail.com"><strong>Email</strong></a>
+
 </div>
 
 ---
 
-## 👨‍💻 About
+## 👋 Introduction
 
-Final-year IT student and full-stack developer delivering production-ready systems from backend to mobile.
+I’m a final-year IT student and passionate full-stack developer. I design, build, and deploy scalable business systems and real-world software solutions. My focus is delivering clean code, professional results, and robust architecture for web, mobile, and enterprise platforms.
 
-📍 Yemen | 📧 alyaarishaher@gmail.com | 📱 +967779007753
-
----
-
-## 🧠 Specializations
-• Hospital & Pharmacy Systems  
-• School Platforms  
-• Legal Office Systems  
-• E-commerce Solutions  
+- 📍 Yemen  
+- 📧 alyaarishaher@gmail.com  
+- 📱 +967779007753
 
 ---
 
-## ⚙️ Tech Stack
+## 🚀 Tech Stack
 
-Backend — C#, ASP.NET Core, Laravel, REST APIs  
-Frontend — Angular, React, TypeScript  
-Mobile — Flutter, Firebase  
-Database — SQL Server, MySQL, Oracle  
-Tools — Git, Docker, Postman  
+- **Backend:** C#, ASP.NET Core, Laravel, REST APIs  
+- **Frontend:** Angular, React, TypeScript  
+- **Mobile:** Flutter, Firebase  
+- **Databases:** SQL Server, MySQL, Oracle  
+- **Tools:** Git, Docker, Postman  
 
 ---
 
 <div align="center">
-
-### Clean Code • Scalable Architecture • Professional Results
-### Open for freelance & full-time opportunities
-
+  
+  <b>Clean Code • Scalable Solutions • Professional Quality</b>
+  
+  <br>
+  
+  <i>Open to freelance and full-time opportunities worldwide!</i>
+  
 </div>
